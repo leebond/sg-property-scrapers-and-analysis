@@ -36,7 +36,37 @@ Neighbourhood=N3&
 Contract=RC10&
 projName=&BonusFlats1=N&
 searchDetails=&
-brochure=false
+brochure=true
+
+https://services2.hdb.gov.sg/webapp/BP13AWFlatAvail/BP13EBSFlatSearch?
+Town=Clementi&
+Flat_Type=OBF&
+selectedTown=Clementi&
+Flat=5-Room%2F3Gen&
+ethnic=C&
+Block=0&
+DesType=A&
+EthnicA=&EthnicM=&
+EthnicC=C&
+EthnicO=&
+numSPR=&
+dteBallot=202003&
+Neighbourhood=&
+Contract=&
+projName=&
+BonusFlats1=N&
+searchDetails=Y&
+brochure=true
+
+https://services2.hdb.gov.sg/webapp/BP13AWFlatAvail/BP13EBSFlatSearch?
+Town=Clementi&
+Flat_Type=OBF&
+DesType=A&
+ethnic=Y&
+Flat=3-ROOM&
+ViewOption=1&
+dteBallot=202003&
+projName=A
 '''
 
 import re, os
@@ -47,18 +77,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 from datetime import datetime
+from urllib.parse import unquote_plus
 
 driver = webdriver.Chrome("C:/Users/guanhua/Documents/chromedriver/chromedriver.exe")
-flatsearchhttp = 'https://services2.hdb.gov.sg/webapp/BP13AWFlatAvail/BP13EBSFlatSearch?'
-
-towns=['Ang Mo Kio','Bukit Batok','Bedok','Bishan','Bukit Merah','Bukit Panjang','Bukit Timah','Choa Chu Kang',\
-       'Clementi','Geylang','Hougang','Jurong East','Jurong West','Kallang/Whampoa','Marine Parade','Punggol',\
-       'Pasir Ris','Queenstown','Sembawang','Serangoon','Sengkang','Tampines','Toa Payoh','Woodlands','Yishun']
-towns=[re.sub(' ','%20',town) for town in towns]
-    
-flats=['3-ROOM','4-Room','5-Room'] # '2-Room+Flexi+%28Short+Lease%29', '2-Room+Flexi+%28Short+Lease%2F99-Year+Lease%29',
-flats=[re.sub(' ','%20',flat) for flat in flats]
-
 
 def getEthnicQuota(ethnic_string):
     ethnic_dict = {}
@@ -95,7 +116,7 @@ def getUnitAndPrice():
             return unit_text, price, sqm, IsBooked
 
     
-def getBlockData(df, town, room_type):
+def getBlockData(df, exercise, town, room_type):
     block = driver.find_element_by_xpath('//*[@id="blockDetails"]/div[2]/div[2]').text
     street = driver.find_element_by_xpath('//*[@id="blockDetails"]/div[2]/div[4]').text
     pcd = driver.find_element_by_xpath('//*[@id="blockDetails"]/div[3]/div[2]').text
@@ -134,64 +155,73 @@ def getBlockData(df, town, room_type):
                 IsBooked = True
 
             print(block, street, pcd, dpd, lcd, malay, chinese, indian_others, unit_text, price, sqm,IsBooked)
-            df = df.append({'Town':town,'Room Type':room_type,'Block':block,'Street':street,'Probable Completion Date':pcd,\
+            df = df.append({'HDB Exercise':exercise, 'Town':town,'Room Type':room_type,'Block':block,'Street':street,'Probable Completion Date':pcd,\
                             'Delivery Possession Date':dpd,'Lease Commencement Date':lcd,\
                             'Ethic Quota-Malay':malay,'Ethic Quota-Chinese':chinese,'Ethic Quota-Indian Others':indian_others,'Unit':unit_text,\
                             'Price':price,'Sqm':sqm,'IsBooked':IsBooked}, ignore_index=True)
     return df
 
 
+flatsearchhttp = 'https://services2.hdb.gov.sg/webapp/BP13AWFlatAvail/BP13EBSFlatSearch?'
 
+towns=['Ang Mo Kio','Bukit Batok','Bedok','Bishan','Bukit Merah','Bukit Panjang','Bukit Timah','Central','Choa Chu Kang',\
+       'Clementi','Geylang','Hougang','Jurong East','Jurong West','Kallang/Whampoa','Marine Parade','Punggol',\
+       'Pasir Ris','Queenstown','Sembawang','Serangoon','Sengkang','Tampines','Toa Payoh','Woodlands','Yishun']
+towns=[re.sub(' ','%20',town) for town in towns]
+    
+flats=['2-Room+Flexi+%28Short+Lease%29','2-Room+Flexi+%28Short+Lease%2F99-Year+Lease%29','3-ROOM','4-Room','5-Room','5-Room%2F3Gen'] # '2-Room+Flexi+%28Short+Lease%29', '2-Room+Flexi+%28Short+Lease%2F99-Year+Lease%29',
+flats=[re.sub(' ','%20',flat) for flat in flats]
 
-df = pd.DataFrame(columns = ['Town', 'Room Type', 'Block', 'Street', 'Probable Completion Date', 'Delivery Possession Date', 'Lease Commencement Date', \
+hdb_exercises = ['SBF', 'OBF']
+
+df = pd.DataFrame(columns = ['HDB Exercise', 'Town', 'Room Type', 'Block', 'Street', 'Probable Completion Date', 'Delivery Possession Date', 'Lease Commencement Date', \
                              'Ethic Quota-Malay', 'Ethic Quota-Chinese', 'Ethic Quota-Indian Others', 'Unit', 'Price', 'Sqm', 'IsBooked'])
 
-for mytown in towns:
-    print(mytown)
-    for myflat in flats:
-        print(myflat)
-        town=mytown #'Ang+Mo+Kio' #'ANG%20MO%20KIO'
-        flat_type = 'SBF'
-        DesType = 'A' #'S'=Standard 'A'=Any, 'P'=Premium
-        ethnic = 'Y'
-        flat = myflat #'2-Room%20Flexi%20(Short%20Lease)'
-        ViewOption = 'A'
-        dteBallot = '201911'
-        projName = 'A'
-        brochure = 'true'
-        
-        params = ['Town='+town, 'Flat_Type='+flat_type, 'DesType='+DesType, 'ethnic='+ethnic, 'Flat='+flat,\
-                  'ViewOption='+ViewOption, 'dteBallot='+dteBallot, 'projName='+projName, 'brochure='+brochure]
-        
-        query = '&'.join(params)
-        # print(flatsearchhttp+query)
-        driver.get(flatsearchhttp+query)
-        
-        block_details_xpath = '//*[@id="blockDetails"]'
-        block_details = driver.find_element_by_xpath(block_details_xpath)
-        if block_details:
-            print('Block Details Present')
-            block_details_table_xpath = '//*[@id="blockDetails"]/div[1]/table/tbody/tr[*]'
-            block_details_table_rows = driver.find_elements_by_xpath(block_details_table_xpath)
-            # print(len(block_details_table_rows))
-            for row in range(1, len(block_details_table_rows)+1):
-                # print(row)
-                columns = driver.find_elements_by_xpath(f'//*[@id="blockDetails"]/div[1]/table/tbody/tr[{str(row)}]/td[*]')
-                # print(len(columns))
-                for col in range(1, len(columns)+1):
-                    # print(col)
-                    cell_xpath = f'//*[@id="blockDetails"]/div[1]/table/tbody/tr[{str(row)}]/td[{str(col)}]/div'
-                    cell = WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.XPATH, cell_xpath)))
-                    if cell:
-                        blue_cell_xpath = f'//*[@id="blockDetails"]/div[1]/table/tbody/tr[{str(row)}]/td[{str(col)}]/div/font/a/font'
-                        blue_cell = driver.find_elements_by_xpath(blue_cell_xpath)
-                        if blue_cell:
-                            cell = WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.XPATH, cell_xpath)))
-                            driver.execute_script('arguments[0].click();', cell)
-                            print('Clicked')
-                            df = getBlockData(df, re.sub('%20',' ', mytown), re.sub('%20',' ',myflat))
+for exercise in hdb_exercises:
+    for mytown in towns:
+        print(mytown)
+        for myflat in flats:
+            print(myflat)
+            town=mytown #'Ang+Mo+Kio' #'ANG%20MO%20KIO'
+            flat_type = exercise # 'SBF' # 'OBF'
+            DesType = 'A' #'S'=Standard 'A'=Any, 'P'=Premium
+            ethnic = 'Y'
+            flat = myflat #'2-Room%20Flexi%20(Short%20Lease)'
+            ViewOption = 'A'
+            dteBallot = '201911' if exercise == 'SBF' else '202003' # 'OBF'
+            projName = 'A'
+            brochure = 'true'
+            params = ['Town='+town, 'Flat_Type='+flat_type, 'DesType='+DesType, 'ethnic='+ethnic, 'Flat='+flat,\
+                      'ViewOption='+ViewOption, 'dteBallot='+dteBallot, 'projName='+projName, 'brochure='+brochure]
+            query = '&'.join(params)
+            # print(flatsearchhttp+query)
+            driver.get(flatsearchhttp+query)
+            
+            block_details_xpath = '//*[@id="blockDetails"]'
+            block_details = driver.find_element_by_xpath(block_details_xpath)
+            if block_details:
+                print('Block Details Present')
+                block_details_table_xpath = '//*[@id="blockDetails"]/div[1]/table/tbody/tr[*]'
+                block_details_table_rows = driver.find_elements_by_xpath(block_details_table_xpath)
+                # print(len(block_details_table_rows))
+                for row in range(1, len(block_details_table_rows)+1):
+                    # print(row)
+                    columns = driver.find_elements_by_xpath(f'//*[@id="blockDetails"]/div[1]/table/tbody/tr[{str(row)}]/td[*]')
+                    # print(len(columns))
+                    for col in range(1, len(columns)+1):
+                        # print(col)
+                        cell_xpath = f'//*[@id="blockDetails"]/div[1]/table/tbody/tr[{str(row)}]/td[{str(col)}]/div'
+                        cell = WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.XPATH, cell_xpath)))
+                        if cell:
+                            blue_cell_xpath = f'//*[@id="blockDetails"]/div[1]/table/tbody/tr[{str(row)}]/td[{str(col)}]/div/font/a/font'
+                            blue_cell = driver.find_elements_by_xpath(blue_cell_xpath)
+                            if blue_cell:
+                                cell = WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.XPATH, cell_xpath)))
+                                driver.execute_script('arguments[0].click();', cell)
+                                print('Clicked')
+                                df = getBlockData(df, exercise, unquote_plus(mytown),unquote_plus(myflat))
 
 print(df.shape)
-if not os.path.exists('./output'):
+if not os.path.exists('output'):
     os.makedirs('./output')
-df.to_csv(f'./output/sbf_non_booked_{datetime.now().date()}.csv', index=False)
+df.to_csv(f'./output/sbf_obf_non_booked_{datetime.now().date()}.csv', index=False)

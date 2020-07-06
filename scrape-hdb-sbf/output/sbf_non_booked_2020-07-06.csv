@@ -1,0 +1,541 @@
+Town,Room Type,Block,Street,Probable Completion Date,Delivery Possession Date,Lease Commencement Date,Ethic Quota-Malay,Ethic Quota-Chinese,Ethic Quota-Indian Others,Unit,Price,Sqm,IsBooked
+Ang Mo Kio,3-ROOM,441 ,ANG MO KIO AVE 10 ,- ,NA (Keys Available) ,01 Jan 1979  ,1,0,1,#02-1277*,"$174,800",67,False
+Ang Mo Kio,3-ROOM,471 ,ANG MO KIO AVE 10 ,- ,NA (Keys Available) ,01 Jul 1979  ,1,0,1,#10-762*,"$184,300",67,False
+Ang Mo Kio,3-ROOM,590A ,ANG MO KIO ST 51 ,- ,NA (Keys Available) ,01 Feb 2019  ,1,0,1,#04-03,"$363,700",68,False
+Ang Mo Kio,3-ROOM,590A ,ANG MO KIO ST 51 ,- ,NA (Keys Available) ,01 Feb 2019  ,1,0,1,#11-03,,,True
+Ang Mo Kio,4-Room,470 ,ANG MO KIO AVE 10 ,- ,NA (Keys Available) ,01 Nov 1979  ,1,0,1,#10-902*,"$276,400",92,False
+Ang Mo Kio,4-Room,591A ,ANG MO KIO ST 51 ,- ,NA (Keys Available) ,01 Feb 2019  ,1,0,1,#07-47,"$525,000",93,False
+Ang Mo Kio,5-Room,307C ,ANG MO KIO AVE 1 ,- ,NA (Keys Available) ,From keys collection date  ,1,0,0,#05-443*,"$84,300 - 15 Years<br>$99,700 - 20 Years<br>$112,300 - 25 Years<br>$122,700 - 30 Years<br>$131,500 - 35 Years<br>$139,000 - 40 Years<br>$145,300 - 45 Years",50,False
+Bukit Batok,4-Room,209 ,BT BATOK ST 21 ,- ,NA (Keys Available) ,01 Mar 1985  ,1,0,1,#04-188*,"$323,900",116,False
+Bedok,3-ROOM,100 ,BEDOK NTH AVE 4 ,- ,NA (Keys Available) ,01 Nov 1978  ,1,1,1,#14-1932*,"$199,000",67,False
+Bedok,3-ROOM,501 ,BEDOK NTH ST 3 ,- ,NA (Keys Available) ,01 Apr 1978  ,0,1,1,#04-24*,"$154,000",59,False
+Bedok,3-ROOM,529 ,BEDOK NTH ST 3 ,- ,NA (Keys Available) ,01 Aug 1979  ,0,1,1,#07-598*,"$189,000",68,False
+Bedok,4-Room,36 ,BEDOK STH AVE 2 ,- ,NA (Keys Available) ,01 Sep 1977  ,1,1,1,#05-413*,"$256,000",84,False
+Bedok,4-Room,93 ,BEDOK NTH AVE 4 ,- ,NA (Keys Available) ,01 Jun 1979  ,1,1,1,#08-1473*,"$301,000",92,False
+Bedok,5-Room,139 ,BEDOK NTH AVE 3 ,- ,NA (Keys Available) ,01 Jan 1979  ,1,1,1,#02-196*,"$431,000",117,False
+Bedok,5-Room,762 ,BEDOK RESERVOIR VIEW ,- ,NA (Keys Available) ,01 Dec 2000  ,1,1,1,#08-313*,"$538,000",115,False
+Bishan,3-ROOM,225 ,BISHAN ST 23 ,- ,NA (Keys Available) ,22 Jul 1992  ,1,0,1,#02-115*,"$404,700",105,False
+Bishan,3-ROOM,234 ,BISHAN ST 22 ,- ,NA (Keys Available) ,16 Apr 1992  ,1,0,1,#03-122*,"$399,900",103,False
+Bishan,3-ROOM,268 ,BISHAN ST 24 ,- ,NA (Keys Available) ,22 Jul 1992  ,1,0,1,#02-182*,"$442,700",112,False
+Bishan,3-ROOM,285 ,BISHAN ST 22 ,- ,NA (Keys Available) ,22 Jul 1992  ,1,0,1,#02-219*,"$466,400",108,False
+Bishan,4-Room,225 ,BISHAN ST 23 ,- ,NA (Keys Available) ,22 Jul 1992  ,1,0,1,#02-115*,"$404,700",105,False
+Bishan,4-Room,234 ,BISHAN ST 22 ,- ,NA (Keys Available) ,16 Apr 1992  ,1,0,1,#03-122*,"$399,900",103,False
+Bishan,4-Room,268 ,BISHAN ST 24 ,- ,NA (Keys Available) ,22 Jul 1992  ,1,0,1,#02-182*,"$442,700",112,False
+Bishan,4-Room,285 ,BISHAN ST 22 ,- ,NA (Keys Available) ,22 Jul 1992  ,1,0,1,#02-219*,"$466,400",108,False
+Bukit Merah,3-ROOM,61 ,TELOK BLANGAH HTS ,- ,NA (Keys Available) ,01 Sep 1976  ,1,0,1,#08-95*,"$312,500",81,False
+Bukit Merah,3-ROOM,91A ,TELOK BLANGAH ST 31 ,- ,NA (Keys Available) ,01 Dec 2018  ,3,0,3,#05-211,"$330,400",68,False
+Bukit Merah,3-ROOM,91A ,TELOK BLANGAH ST 31 ,- ,NA (Keys Available) ,01 Dec 2018  ,3,0,3,#07-211,"$332,000",68,False
+Bukit Merah,3-ROOM,91A ,TELOK BLANGAH ST 31 ,- ,NA (Keys Available) ,01 Dec 2018  ,3,0,3,#29-211,"$380,200",68,False
+Bukit Merah,3-ROOM,92A ,TELOK BLANGAH ST 31 ,- ,NA (Keys Available) ,01 Dec 2018  ,1,0,1,#02-221,"$330,100",68,False
+Bukit Merah,3-ROOM,93B ,TELOK BLANGAH ST 31 ,- ,NA (Keys Available) ,01 Dec 2018  ,1,0,1,#06-181,"$349,800",68,False
+Bukit Merah,4-Room,9 ,CANTONMENT CL ,- ,NA (Keys Available) ,01 Dec 2002  ,1,0,1,#04-85*,"$594,700",90,False
+Bukit Merah,4-Room,70C ,TELOK BLANGAH HTS ,- ,NA (Keys Available) ,01 May 2017  ,1,0,1,#02-541,"$486,100",93,False
+Bukit Merah,4-Room,92B ,TELOK BLANGAH ST 31 ,- ,NA (Keys Available) ,01 Dec 2018  ,1,0,1,#27-191,"$553,300",93,False
+Bukit Panjang,5-Room,210 ,PETIR RD ,- ,NA (Keys Available) ,01 Jun 1988  ,1,0,1,#04-479*,"$325,800",122,False
+Bukit Timah,3-ROOM,8 ,EMPRESS RD ,- ,NA (Keys Available) ,01 Apr 1976  ,1,1,1,#05-17*,"$304,000",65,False
+Bukit Timah,4-Room,21 ,TOH YI DR ,- ,NA (Keys Available) ,From keys collection date  ,1,0,1,#06-621,"$90,900 - 15 Years<br>$106,600 - 20 Years<br>$119,500 - 25 Years<br>$130,100 - 30 Years<br>$139,100 - 35 Years<br>$146,700 - 40 Years<br>$153,200 - 45 Years",47,False
+Bukit Timah,5-Room,12 ,TOH YI DR ,- ,NA (Keys Available) ,01 May 1989  ,1,0,1,#04-397*,"$653,600",122,False
+Bukit Timah,5-Room,13 ,TOH YI DR ,- ,NA (Keys Available) ,01 Sep 1988  ,1,0,1,#10-23*,"$701,100",128,False
+Choa Chu Kang,5-Room,103 ,TECK WHYE LANE ,- ,NA (Keys Available) ,01 Mar 1989  ,0,1,1,#02-430*,"$298,000",121,False
+Choa Chu Kang,5-Room,688C ,CHOA CHU KANG CRES ,- ,NA (Keys Available) ,01 Mar 2003  ,1,1,0,#11-118*,"$344,000",110,False
+Clementi,3-ROOM,211A ,CLEMENTI AVE 6 ,2Q/2022 ,30 Apr 2023  ,-  ,2,1,1,#20-283,"$362,700",68,False
+Clementi,3-ROOM,211A ,CLEMENTI AVE 6 ,2Q/2022 ,30 Apr 2023  ,-  ,2,1,1,#06-297,,,True
+Clementi,3-ROOM,211A ,CLEMENTI AVE 6 ,2Q/2022 ,30 Apr 2023  ,-  ,2,1,1,#11-297,"$349,000",68,False
+Clementi,3-ROOM,464B ,CLEMENTI AVE 1 ,2Q/2022 ,30 Jun 2023  ,-  ,13,13,7,#11-58,,,True
+Clementi,3-ROOM,464B ,CLEMENTI AVE 1 ,2Q/2022 ,30 Jun 2023  ,-  ,13,13,7,#13-58,,,True
+Clementi,3-ROOM,464B ,CLEMENTI AVE 1 ,2Q/2022 ,30 Jun 2023  ,-  ,13,13,7,#14-58,"$385,600",71,False
+Clementi,3-ROOM,464B ,CLEMENTI AVE 1 ,2Q/2022 ,30 Jun 2023  ,-  ,13,13,7,#17-58,,,True
+Clementi,3-ROOM,464B ,CLEMENTI AVE 1 ,2Q/2022 ,30 Jun 2023  ,-  ,13,13,7,#20-58,,,True
+Clementi,3-ROOM,464B ,CLEMENTI AVE 1 ,2Q/2022 ,30 Jun 2023  ,-  ,13,13,7,#21-58,,,True
+Clementi,4-Room,209B ,CLEMENTI AVE 6 ,1Q/2022 ,31 Mar 2023  ,-  ,1,0,1,#27-231,,,True
+Clementi,4-Room,209B ,CLEMENTI AVE 6 ,1Q/2022 ,31 Mar 2023  ,-  ,1,0,1,#36-233,"$543,600",93,False
+Clementi,4-Room,210B ,CLEMENTI AVE 6 ,1Q/2022 ,31 Mar 2023  ,-  ,2,0,2,#09-241,"$511,000",93,False
+Clementi,4-Room,210B ,CLEMENTI AVE 6 ,1Q/2022 ,31 Mar 2023  ,-  ,2,0,2,#23-241,,,True
+Clementi,4-Room,210B ,CLEMENTI AVE 6 ,1Q/2022 ,31 Mar 2023  ,-  ,2,0,2,#09-243,"$505,800",93,False
+Clementi,4-Room,210B ,CLEMENTI AVE 6 ,1Q/2022 ,31 Mar 2023  ,-  ,2,0,2,#23-243,,,True
+Clementi,4-Room,464A ,CLEMENTI AVE 1 ,2Q/2022 ,30 Jun 2023  ,-  ,11,0,11,#02-30,"$436,500",86,False
+Clementi,4-Room,464A ,CLEMENTI AVE 1 ,2Q/2022 ,30 Jun 2023  ,-  ,11,0,11,#03-30,"$441,000",86,False
+Clementi,4-Room,464A ,CLEMENTI AVE 1 ,2Q/2022 ,30 Jun 2023  ,-  ,11,0,11,#04-30,"$445,500",86,False
+Clementi,4-Room,464A ,CLEMENTI AVE 1 ,2Q/2022 ,30 Jun 2023  ,-  ,11,0,11,#05-30,,,True
+Clementi,4-Room,464A ,CLEMENTI AVE 1 ,2Q/2022 ,30 Jun 2023  ,-  ,11,0,11,#06-30,,,True
+Clementi,4-Room,464A ,CLEMENTI AVE 1 ,2Q/2022 ,30 Jun 2023  ,-  ,11,0,11,#07-30,,,True
+Geylang,3-ROOM,32 ,CASSIA CRES ,- ,NA (Keys Available) ,01 Jul 1981  ,1,0,1,#05-66*,"$286,900",68,False
+Geylang,3-ROOM,52 ,CASSIA CRES ,- ,NA (Keys Available) ,01 Jan 2018  ,15,28,9,#03-173,"$340,400",62,False
+Geylang,3-ROOM,52 ,CASSIA CRES ,- ,NA (Keys Available) ,01 Jan 2018  ,15,28,9,#04-173,"$343,400",62,False
+Geylang,3-ROOM,52 ,CASSIA CRES ,- ,NA (Keys Available) ,01 Jan 2018  ,15,28,9,#05-173,"$346,400",62,False
+Geylang,3-ROOM,52 ,CASSIA CRES ,- ,NA (Keys Available) ,01 Jan 2018  ,15,28,9,#06-173,"$348,900",62,False
+Geylang,3-ROOM,52 ,CASSIA CRES ,- ,NA (Keys Available) ,01 Jan 2018  ,15,28,9,#07-173,"$351,400",62,False
+Geylang,3-ROOM,52 ,CASSIA CRES ,- ,NA (Keys Available) ,01 Jan 2018  ,15,28,9,#08-173,,,True
+Geylang,3-ROOM,358C ,UBI RD 3 ,1Q/2022 ,31 Jan 2023  ,-  ,1,0,1,#09-200,"$337,200",68,False
+Hougang,4-Room,613 ,HOUGANG AVE 8 ,- ,NA (Keys Available) ,01 Jun 1986  ,1,1,1,#02-430*,"$236,000",84,False
+Hougang,4-Room,996B ,BUANGKOK CRES ,- ,NA (Keys Available) ,01 Sep 2019  ,1,1,1,#02-887,"$282,900",93,False
+Hougang,4-Room,996C ,BUANGKOK CRES ,- ,NA (Keys Available) ,01 Sep 2019  ,1,1,1,#10-911,,,True
+Hougang,4-Room,996C ,BUANGKOK CRES ,- ,NA (Keys Available) ,01 Sep 2019  ,1,1,1,#02-915,"$282,800",93,False
+Hougang,4-Room,996C ,BUANGKOK CRES ,- ,NA (Keys Available) ,01 Sep 2019  ,1,1,1,#08-915,,,True
+Hougang,5-Room,624 ,HOUGANG AVE 8 ,- ,NA (Keys Available) ,01 Sep 1986  ,1,1,1,#02-200*,"$373,000",122,False
+Jurong East,4-Room,304 ,JURONG EAST ST 32 ,- ,NA (Keys Available) ,01 Sep 1983  ,1,1,1,#06-128*,"$339,000",99,False
+Jurong East,4-Room,338 ,JURONG EAST AVE 1 ,- ,NA (Keys Available) ,01 Jul 1984  ,0,1,1,#02-1638*,"$279,000",104,False
+Jurong West,4-Room,406 ,JURONG WEST ST 42 ,- ,NA (Keys Available) ,01 Aug 1984  ,1,1,1,#04-587*,"$256,000",106,False
+Jurong West,4-Room,731 ,JURONG WEST ST 72 ,- ,NA (Keys Available) ,01 Nov 1990  ,2,2,2,#03-29*,"$252,000",104,False
+Jurong West,4-Room,731 ,JURONG WEST ST 72 ,- ,NA (Keys Available) ,01 Nov 1990  ,2,2,2,#04-31*,"$272,000",111,False
+Jurong West,5-Room,138B ,YUAN CHING RD ,- ,NA (Keys Available) ,04 Sep 2014  ,1,1,1,#15-121*,"$626,000",108,False
+Jurong West,5-Room,653A ,JURONG WEST ST 61 ,- ,NA (Keys Available) ,01 Oct 2002  ,1,1,1,#02-424*,"$386,000",111,False
+Kallang/Whampoa,4-Room,15 ,FARRER PK RD ,- ,NA (Keys Available) ,01 Jun 2004  ,1,0,1,#18-39*,"$442,700",75,False
+Kallang/Whampoa,4-Room,94 ,WHAMPOA DR ,- ,NA (Keys Available) ,01 Jan 1974  ,1,1,1,#03-224*,"$266,000",91,False
+Kallang/Whampoa,5-Room,113C ,MCNAIR RD ,- ,NA (Keys Available) ,From keys collection date  ,1,0,1,#14-258*,,,True
+Kallang/Whampoa,5-Room,113C ,MCNAIR RD ,- ,NA (Keys Available) ,From keys collection date  ,1,0,1,#23-258*,"$87,400 - 15 Years<br>$102,600 - 20 Years<br>$115,100 - 25 Years<br>$125,400 - 30 Years<br>$134,100 - 35 Years<br>$141,500 - 40 Years<br>$147,700 - 45 Years",37,False
+Punggol,4-Room,120A ,EDGEDALE PLAINS ,- ,NA (Keys Available) ,01 May 2017  ,0,1,1,#04-277*,"$285,000",93,False
+Punggol,4-Room,173C ,PUNGGOL FIELD ,- ,NA (Keys Available) ,01 Dec 2003  ,1,1,1,#10-615*,"$266,000",90,False
+Punggol,4-Room,220C ,SUMANG LANE ,- ,NA (Keys Available) ,01 Dec 2018  ,0,1,1,#05-49,"$308,500",93,False
+Punggol,4-Room,227B ,SUMANG LANE ,- ,NA (Keys Available) ,01 Mar 2018  ,1,1,1,#05-264*,"$344,300",93,False
+Punggol,4-Room,228B ,PUNGGOL FIELD ,3Q/2020 ,30 Sep 2021  ,-  ,1,1,1,#03-118,,,True
+Punggol,4-Room,228B ,PUNGGOL FIELD ,3Q/2020 ,30 Sep 2021  ,-  ,1,1,1,#07-126,"$329,200",93,False
+Punggol,4-Room,256A ,SUMANG WALK ,- ,NA (Keys Available) ,01 Dec 2016  ,1,1,1,#05-609*,"$320,400",93,False
+Punggol,4-Room,266C ,PUNGGOL WAY ,- ,NA (Keys Available) ,01 Jun 2015  ,1,1,1,#12-376*,"$400,000",92,False
+Punggol,4-Room,323A ,SUMANG WALK ,- ,NA (Keys Available) ,01 Jan 2020  ,1,1,1,#03-947,,,True
+Punggol,4-Room,323A ,SUMANG WALK ,- ,NA (Keys Available) ,01 Jan 2020  ,1,1,1,#20-947,,,True
+Punggol,4-Room,323A ,SUMANG WALK ,- ,NA (Keys Available) ,01 Jan 2020  ,1,1,1,#03-949,,,True
+Punggol,4-Room,323A ,SUMANG WALK ,- ,NA (Keys Available) ,01 Jan 2020  ,1,1,1,#11-949,"$347,700",93,False
+Punggol,4-Room,323A ,SUMANG WALK ,- ,NA (Keys Available) ,01 Jan 2020  ,1,1,1,#10-951,,,True
+Punggol,4-Room,323A ,SUMANG WALK ,- ,NA (Keys Available) ,01 Jan 2020  ,1,1,1,#17-951,,,True
+Punggol,4-Room,323B ,SUMANG WALK ,- ,NA (Keys Available) ,01 Jan 2020  ,1,1,1,#02-933,"$314,500",93,False
+Punggol,4-Room,323B ,SUMANG WALK ,- ,NA (Keys Available) ,01 Jan 2020  ,1,1,1,#14-937,,,True
+Punggol,4-Room,401A ,NORTHSHORE DR ,4Q/2021 ,31 Oct 2022  ,-  ,1,2,2,#15-20,,,True
+Punggol,4-Room,401A ,NORTHSHORE DR ,4Q/2021 ,31 Oct 2022  ,-  ,1,2,2,#04-22,"$312,100",96,False
+Punggol,4-Room,401A ,NORTHSHORE DR ,4Q/2021 ,31 Oct 2022  ,-  ,1,2,2,#07-26,"$329,000",96,False
+Punggol,4-Room,402B ,NORTHSHORE DR ,4Q/2021 ,30 Nov 2022  ,-  ,2,2,2,#14-50,"$357,000",96,False
+Punggol,4-Room,402B ,NORTHSHORE DR ,4Q/2021 ,30 Nov 2022  ,-  ,2,2,2,#16-50,"$359,800",96,False
+Punggol,4-Room,406B ,NORTHSHORE DR ,- ,NA (Keys Available) ,01 May 2021  ,1,1,1,#04-162,"$340,800",94,False
+Punggol,4-Room,406C ,NORTHSHORE DR ,- ,NA (Keys Available) ,01 May 2021  ,1,1,1,#04-174,"$334,500",94,False
+Punggol,4-Room,409C ,NORTHSHORE DR ,4Q/2020 ,30 Apr 2021  ,-  ,1,1,1,#03-262,"$327,000",94,False
+Punggol,4-Room,409C ,NORTHSHORE DR ,4Q/2020 ,30 Apr 2021  ,-  ,1,1,1,#16-270,,,True
+Punggol,4-Room,413A ,NORTHSHORE DR ,4Q/2020 ,31 Dec 2021  ,-  ,1,1,1,#06-525,"$332,200",94,False
+Punggol,4-Room,415C ,NORTHSHORE DR ,4Q/2020 ,31 Dec 2021  ,-  ,0,1,1,#03-565,"$316,200",94,False
+Punggol,4-Room,420C ,NORTHSHORE DR ,4Q/2020 ,31 Dec 2021  ,-  ,1,1,1,#06-641,"$340,400",95,False
+Punggol,4-Room,420D ,NORTHSHORE DR ,4Q/2020 ,31 Dec 2021  ,-  ,1,1,1,#07-653,"$335,100",94,False
+Punggol,4-Room,425B ,NORTHSHORE CRES ,3Q/2021 ,30 Sep 2022  ,-  ,1,1,1,#13-165,"$329,400",93,False
+Punggol,4-Room,425B ,NORTHSHORE CRES ,3Q/2021 ,30 Sep 2022  ,-  ,1,1,1,#17-165,,,True
+Punggol,4-Room,653A ,PUNGGOL DR ,1Q/2021 ,31 Mar 2022  ,-  ,1,2,2,#05-34,"$302,100",93,False
+Punggol,4-Room,653A ,PUNGGOL DR ,1Q/2021 ,31 Mar 2022  ,-  ,1,2,2,#12-40,"$328,400",93,False
+Punggol,4-Room,653C ,PUNGGOL DR ,2Q/2021 ,30 Jun 2022  ,-  ,1,1,1,#08-82,"$317,700",93,False
+Punggol,4-Room,654A ,PUNGGOL DR ,2Q/2021 ,30 Jun 2022  ,-  ,2,3,1,#10-92,"$325,600",93,False
+Punggol,4-Room,654A ,PUNGGOL DR ,2Q/2021 ,30 Jun 2022  ,-  ,2,3,1,#15-92,"$332,600",93,False
+Punggol,4-Room,654A ,PUNGGOL DR ,2Q/2021 ,30 Jun 2022  ,-  ,2,3,1,#03-98,"$308,400",93,False
+Punggol,4-Room,654B ,PUNGGOL DR ,2Q/2021 ,30 Jun 2022  ,-  ,0,3,2,#10-112,"$318,000",93,False
+Punggol,4-Room,654B ,PUNGGOL DR ,2Q/2021 ,30 Jun 2022  ,-  ,0,3,2,#14-112,"$322,200",93,False
+Punggol,4-Room,654B ,PUNGGOL DR ,2Q/2021 ,30 Jun 2022  ,-  ,0,3,2,#05-114,"$302,100",93,False
+Punggol,4-Room,654D ,PUNGGOL DR ,2Q/2021 ,30 Jun 2022  ,-  ,0,2,2,#02-168,"$289,200",93,False
+Punggol,4-Room,654D ,PUNGGOL DR ,2Q/2021 ,30 Jun 2022  ,-  ,0,2,2,#10-168,"$323,100",93,False
+Punggol,4-Room,655C ,PUNGGOL EAST ,1Q/2021 ,31 Mar 2022  ,-  ,0,1,1,#07-762,"$336,000",93,False
+Punggol,4-Room,659B ,PUNGGOL EAST ,- ,NA (Keys Available) ,01 Nov 2018  ,1,1,1,#08-763,"$320,400",93,False
+Pasir Ris,3-ROOM,214 ,PASIR RIS ST 21 ,- ,NA (Keys Available) ,01 Jul 1993  ,0,1,0,#03-258*,"$314,000",107,False
+Pasir Ris,3-ROOM,568 ,PASIR RIS ST 51 ,- ,NA (Keys Available) ,28 Nov 1992  ,1,1,1,#02-86*,"$311,000",104,False
+Pasir Ris,4-Room,214 ,PASIR RIS ST 21 ,- ,NA (Keys Available) ,01 Jul 1993  ,0,1,0,#03-258*,"$314,000",107,False
+Pasir Ris,4-Room,568 ,PASIR RIS ST 51 ,- ,NA (Keys Available) ,28 Nov 1992  ,1,1,1,#02-86*,"$311,000",104,False
+Pasir Ris,5-Room,138 ,PASIR RIS ST 11 ,- ,NA (Keys Available) ,01 Apr 1994  ,0,1,0,#05-205*,"$363,000",127,False
+Sembawang,4-Room,101B ,CANBERRA ST ,- ,NA (Keys Available) ,01 Dec 2020  ,1,1,1,#02-49,"$253,000",93,False
+Sembawang,4-Room,101B ,CANBERRA ST ,- ,NA (Keys Available) ,01 Dec 2020  ,1,1,1,#14-51,,,True
+Sembawang,4-Room,101B ,CANBERRA ST ,- ,NA (Keys Available) ,01 Dec 2020  ,1,1,1,#14-53,,,True
+Sembawang,4-Room,101B ,CANBERRA ST ,- ,NA (Keys Available) ,01 Dec 2020  ,1,1,1,#15-55,,,True
+Sembawang,4-Room,107A ,CANBERRA ST ,- ,NA (Keys Available) ,01 Jul 2018  ,1,1,0,#02-573,"$244,000",93,False
+Sembawang,4-Room,362A ,SEMBAWANG CRES ,- ,NA (Keys Available) ,01 May 2019  ,1,1,1,#12-835,,,True
+Sembawang,4-Room,362A ,SEMBAWANG CRES ,- ,NA (Keys Available) ,01 May 2019  ,1,1,1,#17-845,,,True
+Sembawang,4-Room,362A ,SEMBAWANG CRES ,- ,NA (Keys Available) ,01 May 2019  ,1,1,1,#13-847,,,True
+Sembawang,4-Room,362A ,SEMBAWANG CRES ,- ,NA (Keys Available) ,01 May 2019  ,1,1,1,#06-853,"$271,500",93,False
+Sembawang,4-Room,362A ,SEMBAWANG CRES ,- ,NA (Keys Available) ,01 May 2019  ,1,1,1,#05-855,,,True
+Sembawang,4-Room,362C ,SEMBAWANG CRES ,- ,NA (Keys Available) ,01 May 2019  ,1,2,2,#09-797,,,True
+Sembawang,4-Room,362C ,SEMBAWANG CRES ,- ,NA (Keys Available) ,01 May 2019  ,1,2,2,#03-805,"$258,900",93,False
+Sembawang,4-Room,362C ,SEMBAWANG CRES ,- ,NA (Keys Available) ,01 May 2019  ,1,2,2,#11-809,"$292,500",93,False
+Serangoon,3-ROOM,7 ,LOR LEW LIAN ,- ,NA (Keys Available) ,01 May 1978  ,1,1,1,#02-134*,"$346,000",98,False
+Serangoon,4-Room,7 ,LOR LEW LIAN ,- ,NA (Keys Available) ,01 May 1978  ,1,1,1,#02-134*,"$346,000",98,False
+Serangoon,5-Room,7 ,LOR LEW LIAN ,- ,NA (Keys Available) ,01 May 1978  ,1,1,1,#02-134*,"$346,000",98,False
+Sengkang,4-Room,170A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,1,5,5,#04-20,"$294,000",93,False
+Sengkang,4-Room,170A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,1,5,5,#03-22,"$288,900",93,False
+Sengkang,4-Room,170A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,1,5,5,#02-32,"$294,400",93,False
+Sengkang,4-Room,170A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,1,5,5,#02-34,"$294,400",93,False
+Sengkang,4-Room,170A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,1,5,5,#05-34,"$318,200",93,False
+Sengkang,4-Room,170B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,3,7,5,#03-48,"$288,900",93,False
+Sengkang,4-Room,170B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,3,7,5,#09-48,"$314,800",93,False
+Sengkang,4-Room,170B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,3,7,5,#14-48,"$324,300",93,False
+Sengkang,4-Room,170B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,3,7,5,#03-50,"$288,900",93,False
+Sengkang,4-Room,170B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,3,7,5,#07-52,,,True
+Sengkang,4-Room,170B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,3,7,5,#02-54,"$294,400",93,False
+Sengkang,4-Room,171A ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,3,6,4,#03-74,"$289,500",93,False
+Sengkang,4-Room,171A ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,3,6,4,#05-74,"$298,500",93,False
+Sengkang,4-Room,171A ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,3,6,4,#15-74,"$320,700",93,False
+Sengkang,4-Room,171A ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,3,6,4,#04-76,"$293,400",93,False
+Sengkang,4-Room,171A ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,3,6,4,#02-82,"$299,600",93,False
+Sengkang,4-Room,171A ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,3,6,4,#02-84,"$294,400",93,False
+Sengkang,4-Room,171B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,4,5,5,#02-90,"$299,500",93,False
+Sengkang,4-Room,171B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,4,5,5,#02-92,"$299,500",93,False
+Sengkang,4-Room,171B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,4,5,5,#02-94,"$299,500",93,False
+Sengkang,4-Room,171B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,4,5,5,#03-94,"$304,000",93,False
+Sengkang,4-Room,171B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,4,5,5,#02-96,"$299,500",93,False
+Sengkang,4-Room,171B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,4,5,5,#09-96,,,True
+Sengkang,4-Room,172B ,SENGKANG EAST DR ,2Q/2022 ,30 Apr 2023  ,-  ,13,16,4,#03-128,"$288,900",93,False
+Sengkang,4-Room,172B ,SENGKANG EAST DR ,2Q/2022 ,30 Apr 2023  ,-  ,13,16,4,#04-128,"$293,400",93,False
+Sengkang,4-Room,172B ,SENGKANG EAST DR ,2Q/2022 ,30 Apr 2023  ,-  ,13,16,4,#06-128,"$301,400",93,False
+Sengkang,4-Room,172B ,SENGKANG EAST DR ,2Q/2022 ,30 Apr 2023  ,-  ,13,16,4,#07-128,"$304,900",93,False
+Sengkang,4-Room,172B ,SENGKANG EAST DR ,2Q/2022 ,30 Apr 2023  ,-  ,13,16,4,#09-128,"$309,800",93,False
+Sengkang,4-Room,172B ,SENGKANG EAST DR ,2Q/2022 ,30 Apr 2023  ,-  ,13,16,4,#10-128,"$311,200",93,False
+Sengkang,4-Room,172D ,SENGKANG EAST DR ,3Q/2022 ,30 Sep 2023  ,-  ,19,18,11,#03-174,"$278,800",93,False
+Sengkang,4-Room,172D ,SENGKANG EAST DR ,3Q/2022 ,30 Sep 2023  ,-  ,19,18,11,#04-174,"$283,300",93,False
+Sengkang,4-Room,172D ,SENGKANG EAST DR ,3Q/2022 ,30 Sep 2023  ,-  ,19,18,11,#05-174,"$287,800",93,False
+Sengkang,4-Room,172D ,SENGKANG EAST DR ,3Q/2022 ,30 Sep 2023  ,-  ,19,18,11,#06-174,"$291,300",93,False
+Sengkang,4-Room,172D ,SENGKANG EAST DR ,3Q/2022 ,30 Sep 2023  ,-  ,19,18,11,#07-174,"$294,800",93,False
+Sengkang,4-Room,172D ,SENGKANG EAST DR ,3Q/2022 ,30 Sep 2023  ,-  ,19,18,11,#08-174,"$298,300",93,False
+Sengkang,4-Room,173A ,SENGKANG EAST DR ,3Q/2022 ,30 Sep 2023  ,-  ,11,27,9,#03-198,"$288,900",93,False
+Sengkang,4-Room,173A ,SENGKANG EAST DR ,3Q/2022 ,30 Sep 2023  ,-  ,11,27,9,#04-198,"$293,400",93,False
+Sengkang,4-Room,173A ,SENGKANG EAST DR ,3Q/2022 ,30 Sep 2023  ,-  ,11,27,9,#05-198,"$297,900",93,False
+Sengkang,4-Room,173A ,SENGKANG EAST DR ,3Q/2022 ,30 Sep 2023  ,-  ,11,27,9,#06-198,"$301,400",93,False
+Sengkang,4-Room,173A ,SENGKANG EAST DR ,3Q/2022 ,30 Sep 2023  ,-  ,11,27,9,#03-200,"$288,900",93,False
+Sengkang,4-Room,173A ,SENGKANG EAST DR ,3Q/2022 ,30 Sep 2023  ,-  ,11,27,9,#04-200,"$293,400",93,False
+Sengkang,4-Room,173C ,SENGKANG EAST DR ,3Q/2022 ,31 Jul 2023  ,-  ,8,28,5,#03-232,"$288,900",93,False
+Sengkang,4-Room,173C ,SENGKANG EAST DR ,3Q/2022 ,31 Jul 2023  ,-  ,8,28,5,#04-232,"$293,400",93,False
+Sengkang,4-Room,173C ,SENGKANG EAST DR ,3Q/2022 ,31 Jul 2023  ,-  ,8,28,5,#05-232,"$297,900",93,False
+Sengkang,4-Room,173C ,SENGKANG EAST DR ,3Q/2022 ,31 Jul 2023  ,-  ,8,28,5,#06-232,"$301,400",93,False
+Sengkang,4-Room,173C ,SENGKANG EAST DR ,3Q/2022 ,31 Jul 2023  ,-  ,8,28,5,#07-232,"$304,900",93,False
+Sengkang,4-Room,173C ,SENGKANG EAST DR ,3Q/2022 ,31 Jul 2023  ,-  ,8,28,5,#08-232,"$308,400",93,False
+Sengkang,4-Room,174A ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,12,36,4,#03-278,"$278,800",93,False
+Sengkang,4-Room,174A ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,12,36,4,#04-278,"$283,300",93,False
+Sengkang,4-Room,174A ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,12,36,4,#05-278,"$287,800",93,False
+Sengkang,4-Room,174A ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,12,36,4,#06-278,"$291,300",93,False
+Sengkang,4-Room,174A ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,12,36,4,#07-278,"$294,800",93,False
+Sengkang,4-Room,174A ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,12,36,4,#09-278,"$299,700",93,False
+Sengkang,4-Room,174B ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,6,11,5,#03-296,"$289,500",93,False
+Sengkang,4-Room,174B ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,6,11,5,#04-296,"$294,000",93,False
+Sengkang,4-Room,174B ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,6,11,5,#05-296,"$298,500",93,False
+Sengkang,4-Room,174B ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,6,11,5,#06-296,"$302,000",93,False
+Sengkang,4-Room,174B ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,6,11,5,#10-296,"$313,700",93,False
+Sengkang,4-Room,174B ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,6,11,5,#02-298,"$279,400",93,False
+Sengkang,4-Room,175A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,7,7,5,#02-320,"$299,500",93,False
+Sengkang,4-Room,175A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,7,7,5,#06-320,"$316,500",93,False
+Sengkang,4-Room,175A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,7,7,5,#15-320,,,True
+Sengkang,4-Room,175A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,7,7,5,#02-322,"$299,500",93,False
+Sengkang,4-Room,175A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,7,7,5,#03-322,"$304,000",93,False
+Sengkang,4-Room,175A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,7,7,5,#08-322,,,True
+Sengkang,4-Room,175B ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,6,7,5,#02-332,"$280,000",93,False
+Sengkang,4-Room,175B ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,6,7,5,#03-332,"$289,500",93,False
+Sengkang,4-Room,175B ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,6,7,5,#04-332,"$294,000",93,False
+Sengkang,4-Room,175B ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,6,7,5,#02-334,"$279,400",93,False
+Sengkang,4-Room,175B ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,6,7,5,#06-334,"$303,900",93,False
+Sengkang,4-Room,175B ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,6,7,5,#02-340,"$299,500",93,False
+Sengkang,4-Room,400B ,FERNVALE LANE ,1Q/2022 ,31 Mar 2023  ,-  ,1,1,1,#05-236,,,True
+Sengkang,4-Room,400B ,FERNVALE LANE ,1Q/2022 ,31 Mar 2023  ,-  ,1,1,1,#06-236,"$316,800",93,False
+Sengkang,4-Room,400C ,FERNVALE LANE ,1Q/2022 ,28 Feb 2023  ,-  ,1,1,1,#03-256,"$293,600",93,False
+Sengkang,4-Room,400E ,FERNVALE LANE ,1Q/2022 ,31 Mar 2023  ,-  ,1,1,1,#13-266,"$324,000",93,False
+Sengkang,4-Room,401D ,FERNVALE LANE ,1Q/2022 ,31 Mar 2023  ,-  ,1,1,1,#06-316,"$316,800",93,False
+Sengkang,4-Room,440A ,FERNVALE LINK ,- ,NA (Keys Available) ,01 Jul 2015  ,1,1,1,#08-177*,"$324,000",92,False
+Sengkang,4-Room,460B ,SENGKANG WEST WAY ,2Q/2021 ,30 Apr 2022  ,-  ,1,0,1,#14-95,,,True
+Sengkang,4-Room,460B ,SENGKANG WEST WAY ,2Q/2021 ,30 Apr 2022  ,-  ,1,0,1,#14-105,"$320,600",93,False
+Sengkang,4-Room,460C ,SENGKANG WEST WAY ,2Q/2021 ,30 Apr 2022  ,-  ,1,1,1,#09-59,"$325,200",93,False
+Sengkang,4-Room,461A ,SENGKANG WEST WAY ,2Q/2021 ,31 May 2022  ,-  ,1,0,0,#06-107,,,True
+Sengkang,4-Room,461A ,SENGKANG WEST WAY ,2Q/2021 ,31 May 2022  ,-  ,1,0,0,#11-107,,,True
+Sengkang,4-Room,461A ,SENGKANG WEST WAY ,2Q/2021 ,31 May 2022  ,-  ,1,0,0,#04-117,"$306,200",93,False
+Sengkang,4-Room,461B ,SENGKANG WEST WAY ,2Q/2021 ,30 Jun 2022  ,-  ,0,1,0,#09-137,"$315,000",93,False
+Sengkang,5-Room,170A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,7,18,8,#11-28,,,True
+Sengkang,5-Room,170A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,7,18,8,#02-38,"$362,300",113,False
+Sengkang,5-Room,170A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,7,18,8,#03-38,"$368,300",113,False
+Sengkang,5-Room,170A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,7,18,8,#02-40,"$344,800",113,False
+Sengkang,5-Room,170A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,7,18,8,#05-40,"$362,800",113,False
+Sengkang,5-Room,170A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,7,18,8,#06-40,"$372,900",113,False
+Sengkang,5-Room,171A ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,9,9,6,#09-66,,,True
+Sengkang,5-Room,171A ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,9,9,6,#06-68,,,True
+Sengkang,5-Room,171A ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,9,9,6,#09-68,,,True
+Sengkang,5-Room,171A ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,9,9,6,#03-70,"$356,100",113,False
+Sengkang,5-Room,171A ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,9,9,6,#04-70,"$362,100",113,False
+Sengkang,5-Room,171A ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,9,9,6,#05-70,"$368,100",113,False
+Sengkang,5-Room,171B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,14,16,6,#02-86,"$344,100",113,False
+Sengkang,5-Room,171B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,14,16,6,#03-86,"$356,100",113,False
+Sengkang,5-Room,171B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,14,16,6,#04-86,"$362,100",113,False
+Sengkang,5-Room,171B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,14,16,6,#05-86,"$368,100",113,False
+Sengkang,5-Room,171B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,14,16,6,#06-86,,,True
+Sengkang,5-Room,171B ,SENGKANG EAST DR ,2Q/2022 ,31 May 2023  ,-  ,14,16,6,#02-88,"$344,100",113,False
+Sengkang,5-Room,172B ,SENGKANG EAST DR ,2Q/2022 ,30 Apr 2023  ,-  ,3,2,3,#03-132,"$356,100",113,False
+Sengkang,5-Room,172B ,SENGKANG EAST DR ,2Q/2022 ,30 Apr 2023  ,-  ,3,2,3,#03-134,"$356,100",113,False
+Sengkang,5-Room,172B ,SENGKANG EAST DR ,2Q/2022 ,30 Apr 2023  ,-  ,3,2,3,#04-134,,,True
+Sengkang,5-Room,172B ,SENGKANG EAST DR ,2Q/2022 ,30 Apr 2023  ,-  ,3,2,3,#08-134,"$387,900",113,False
+Sengkang,5-Room,173C ,SENGKANG EAST DR ,3Q/2022 ,31 Jul 2023  ,-  ,7,7,1,#03-228,"$356,100",113,False
+Sengkang,5-Room,173C ,SENGKANG EAST DR ,3Q/2022 ,31 Jul 2023  ,-  ,7,7,1,#04-228,"$362,100",113,False
+Sengkang,5-Room,173C ,SENGKANG EAST DR ,3Q/2022 ,31 Jul 2023  ,-  ,7,7,1,#05-228,"$368,100",113,False
+Sengkang,5-Room,173C ,SENGKANG EAST DR ,3Q/2022 ,31 Jul 2023  ,-  ,7,7,1,#06-228,,,True
+Sengkang,5-Room,173C ,SENGKANG EAST DR ,3Q/2022 ,31 Jul 2023  ,-  ,7,7,1,#18-228,,,True
+Sengkang,5-Room,173C ,SENGKANG EAST DR ,3Q/2022 ,31 Jul 2023  ,-  ,7,7,1,#03-230,"$356,100",113,False
+Sengkang,5-Room,174B ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,13,13,9,#03-300,,,True
+Sengkang,5-Room,174B ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,13,13,9,#04-308,"$386,700",113,False
+Sengkang,5-Room,174B ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,13,13,9,#08-308,,,True
+Sengkang,5-Room,174B ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,13,13,9,#02-312,"$344,100",113,False
+Sengkang,5-Room,174B ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,13,13,9,#03-312,"$356,100",113,False
+Sengkang,5-Room,174B ,SENGKANG EAST DR ,3Q/2022 ,31 Aug 2023  ,-  ,13,13,9,#04-312,"$362,100",113,False
+Sengkang,5-Room,175A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,12,21,7,#02-316,"$344,100",113,False
+Sengkang,5-Room,175A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,12,21,7,#03-316,"$350,100",113,False
+Sengkang,5-Room,175A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,12,21,7,#04-316,"$362,100",113,False
+Sengkang,5-Room,175A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,12,21,7,#05-316,"$368,100",113,False
+Sengkang,5-Room,175A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,12,21,7,#06-316,"$372,600",113,False
+Sengkang,5-Room,175A ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,12,21,7,#07-316,"$377,100",113,False
+Sengkang,5-Room,175B ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,4,4,4,#08-336,,,True
+Sengkang,5-Room,175B ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,4,4,4,#08-344,,,True
+Sengkang,5-Room,175B ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,4,4,4,#09-344,,,True
+Sengkang,5-Room,175B ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,4,4,4,#11-344,,,True
+Sengkang,5-Room,175B ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,4,4,4,#12-344,,,True
+Sengkang,5-Room,175B ,SENGKANG EAST DR ,2Q/2022 ,30 Jun 2023  ,-  ,4,4,4,#15-346,,,True
+Sengkang,5-Room,184B ,RIVERVALE CRES ,- ,NA (Keys Available) ,01 Jun 2003  ,1,1,1,#12-175*,"$328,000",110,False
+Sengkang,5-Room,401E ,FERNVALE LANE ,2Q/2022 ,30 Apr 2023  ,-  ,1,1,1,#09-330,"$420,200",113,False
+Sengkang,5-Room,401E ,FERNVALE LANE ,2Q/2022 ,30 Apr 2023  ,-  ,1,1,1,#16-330,,,True
+Tampines,3-ROOM,629A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,1,1,#03-41,,,True
+Tampines,3-ROOM,629A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,1,1,#04-41,"$238,400",68,False
+Tampines,3-ROOM,629A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,1,1,#06-41,,,True
+Tampines,3-ROOM,629A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,1,1,#07-41,,,True
+Tampines,3-ROOM,629A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,1,1,#09-41,,,True
+Tampines,3-ROOM,629A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,1,1,#12-41,,,True
+Tampines,3-ROOM,630A ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,10,2,#03-83,,,True
+Tampines,3-ROOM,630A ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,10,2,#04-83,,,True
+Tampines,3-ROOM,630A ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,10,2,#05-83,"$245,300",68,False
+Tampines,3-ROOM,630A ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,10,2,#06-83,"$247,800",68,False
+Tampines,3-ROOM,630A ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,10,2,#09-83,"$253,800",68,False
+Tampines,3-ROOM,630A ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,10,2,#10-83,"$254,800",68,False
+Tampines,3-ROOM,630B ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,1,1,#08-107,,,True
+Tampines,3-ROOM,630B ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,1,1,#10-107,,,True
+Tampines,3-ROOM,630B ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,1,1,#03-109,,,True
+Tampines,3-ROOM,630B ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,1,1,#04-109,"$238,400",68,False
+Tampines,4-Room,629A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,2,31,11,#04-31,"$362,100",93,False
+Tampines,4-Room,629A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,2,31,11,#05-31,"$366,600",93,False
+Tampines,4-Room,629A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,2,31,11,#06-31,"$370,100",93,False
+Tampines,4-Room,629A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,2,31,11,#07-31,"$373,600",93,False
+Tampines,4-Room,629A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,2,31,11,#08-31,"$377,100",93,False
+Tampines,4-Room,629A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,2,31,11,#09-31,"$378,500",93,False
+Tampines,4-Room,629B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,6,32,10,#03-57,"$351,600",93,False
+Tampines,4-Room,629B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,6,32,10,#04-57,"$362,100",93,False
+Tampines,4-Room,629B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,6,32,10,#05-57,"$366,600",93,False
+Tampines,4-Room,629B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,6,32,10,#06-57,"$370,100",93,False
+Tampines,4-Room,629B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,6,32,10,#07-57,"$373,600",93,False
+Tampines,4-Room,629B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,6,32,10,#08-57,"$377,100",93,False
+Tampines,4-Room,630A ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,32,14,#03-73,"$351,600",93,False
+Tampines,4-Room,630A ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,32,14,#04-73,"$362,100",93,False
+Tampines,4-Room,630A ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,32,14,#05-73,"$366,600",93,False
+Tampines,4-Room,630A ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,32,14,#06-73,"$370,100",93,False
+Tampines,4-Room,630A ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,32,14,#07-73,"$373,600",93,False
+Tampines,4-Room,630A ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,0,32,14,#08-73,"$377,100",93,False
+Tampines,4-Room,630B ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,9,21,5,#03-99,"$351,600",93,False
+Tampines,4-Room,630B ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,9,21,5,#04-99,"$362,100",93,False
+Tampines,4-Room,630B ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,9,21,5,#05-99,"$366,600",93,False
+Tampines,4-Room,630B ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,9,21,5,#06-99,"$370,100",93,False
+Tampines,4-Room,630B ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,9,21,5,#08-99,,,True
+Tampines,4-Room,630B ,TAMPINES NTH DR 2 ,1Q/2022 ,28 Feb 2023  ,-  ,9,21,5,#10-99,"$379,900",93,False
+Tampines,4-Room,631A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Mar 2023  ,-  ,0,11,7,#02-121,"$353,100",93,False
+Tampines,4-Room,631A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Mar 2023  ,-  ,0,11,7,#03-121,"$357,600",93,False
+Tampines,4-Room,631A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Mar 2023  ,-  ,0,11,7,#04-121,,,True
+Tampines,4-Room,631A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Mar 2023  ,-  ,0,11,7,#05-121,,,True
+Tampines,4-Room,631A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Mar 2023  ,-  ,0,11,7,#11-121,,,True
+Tampines,4-Room,631A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Mar 2023  ,-  ,0,11,7,#02-123,"$353,100",93,False
+Tampines,4-Room,631B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Mar 2023  ,-  ,2,8,8,#07-133,,,True
+Tampines,4-Room,631B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Mar 2023  ,-  ,2,8,8,#12-133,,,True
+Tampines,4-Room,631B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Mar 2023  ,-  ,2,8,8,#02-135,,,True
+Tampines,4-Room,631B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Mar 2023  ,-  ,2,8,8,#02-137,"$359,200",93,False
+Tampines,4-Room,631B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Mar 2023  ,-  ,2,8,8,#03-137,"$363,700",93,False
+Tampines,4-Room,631B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Mar 2023  ,-  ,2,8,8,#07-137,,,True
+Tampines,4-Room,632A ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,5,7,7,#03-161,"$348,200",92,False
+Tampines,4-Room,632A ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,5,7,7,#04-161,"$358,600",92,False
+Tampines,4-Room,632A ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,5,7,7,#05-161,,,True
+Tampines,4-Room,632A ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,5,7,7,#06-161,,,True
+Tampines,4-Room,632A ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,5,7,7,#08-161,,,True
+Tampines,4-Room,632A ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,5,7,7,#04-163,,,True
+Tampines,4-Room,632B ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,5,5,3,#02-175,"$361,600",92,False
+Tampines,4-Room,632B ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,5,5,3,#04-179,,,True
+Tampines,4-Room,632B ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,5,5,3,#03-181,"$348,200",92,False
+Tampines,4-Room,632B ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,5,5,3,#04-181,"$358,600",92,False
+Tampines,4-Room,632B ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,5,5,3,#04-183,"$352,700",92,False
+Tampines,4-Room,632B ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,5,5,3,#05-183,"$363,100",92,False
+Tampines,4-Room,633A ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,7,7,7,#03-199,,,True
+Tampines,4-Room,633A ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,7,7,7,#04-199,"$358,600",92,False
+Tampines,4-Room,633A ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,7,7,7,#05-199,"$363,100",92,False
+Tampines,4-Room,633A ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,7,7,7,#03-201,,,True
+Tampines,4-Room,633A ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,7,7,7,#03-203,"$348,200",92,False
+Tampines,4-Room,633A ,TAMPINES NTH DR 2 ,2Q/2022 ,30 Apr 2023  ,-  ,7,7,7,#04-203,"$358,600",92,False
+Tampines,4-Room,633B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,1,1,#03-215,,,True
+Tampines,4-Room,633B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,1,1,#05-215,,,True
+Tampines,4-Room,633B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,1,1,#03-217,,,True
+Tampines,4-Room,633B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,1,1,#04-217,"$352,700",92,False
+Tampines,4-Room,633B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,1,1,#05-217,,,True
+Tampines,4-Room,634A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,7,6,#03-237,,,True
+Tampines,4-Room,634A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,7,6,#03-241,"$351,200",92,False
+Tampines,4-Room,634A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,7,6,#04-241,"$355,700",92,False
+Tampines,4-Room,634A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,7,6,#05-241,,,True
+Tampines,4-Room,634A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,7,6,#06-241,,,True
+Tampines,4-Room,634A ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,0,7,6,#03-243,"$351,200",92,False
+Tampines,4-Room,634B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,6,7,7,#03-253,"$369,100",92,False
+Tampines,4-Room,634B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,6,7,7,#03-255,"$351,200",92,False
+Tampines,4-Room,634B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,6,7,7,#04-255,"$361,600",92,False
+Tampines,4-Room,634B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,6,7,7,#05-255,,,True
+Tampines,4-Room,634B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,6,7,7,#04-257,"$361,600",92,False
+Tampines,4-Room,634B ,TAMPINES NTH DR 2 ,1Q/2022 ,31 Jan 2023  ,-  ,6,7,7,#03-259,"$351,200",92,False
+Tampines,4-Room,634C ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,4,11,10,#03-275,"$351,200",92,False
+Tampines,4-Room,634C ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,4,11,10,#04-275,"$361,600",92,False
+Tampines,4-Room,634C ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,4,11,10,#05-275,,,True
+Tampines,4-Room,634C ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,4,11,10,#06-275,,,True
+Tampines,4-Room,634C ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,4,11,10,#07-275,,,True
+Tampines,4-Room,634C ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,4,11,10,#04-277,,,True
+Tampines,4-Room,635A ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,0,3,3,#03-289,,,True
+Tampines,4-Room,635A ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,0,3,3,#03-291,,,True
+Tampines,4-Room,635A ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,0,3,3,#03-293,"$357,100",92,False
+Tampines,4-Room,635A ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,0,3,3,#04-293,,,True
+Tampines,4-Room,635A ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,0,3,3,#05-293,,,True
+Tampines,4-Room,635A ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,0,3,3,#03-295,"$357,100",92,False
+Tampines,4-Room,635B ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,0,23,13,#03-305,,,True
+Tampines,4-Room,635B ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,0,23,13,#04-305,,,True
+Tampines,4-Room,635B ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,0,23,13,#05-305,,,True
+Tampines,4-Room,635B ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,0,23,13,#11-305,,,True
+Tampines,4-Room,635B ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,0,23,13,#03-307,"$360,700",93,False
+Tampines,4-Room,635B ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Dec 2022  ,-  ,0,23,13,#04-307,"$365,200",93,False
+Tampines,4-Room,635C ,TAMPINES NTH DR 2 ,4Q/2021 ,30 Nov 2022  ,-  ,6,24,5,#03-329,"$357,100",93,False
+Tampines,4-Room,635C ,TAMPINES NTH DR 2 ,4Q/2021 ,30 Nov 2022  ,-  ,6,24,5,#04-329,"$361,600",93,False
+Tampines,4-Room,635C ,TAMPINES NTH DR 2 ,4Q/2021 ,30 Nov 2022  ,-  ,6,24,5,#05-329,"$366,100",93,False
+Tampines,4-Room,635C ,TAMPINES NTH DR 2 ,4Q/2021 ,30 Nov 2022  ,-  ,6,24,5,#06-329,"$369,600",93,False
+Tampines,4-Room,635C ,TAMPINES NTH DR 2 ,4Q/2021 ,30 Nov 2022  ,-  ,6,24,5,#07-329,"$373,100",93,False
+Tampines,4-Room,635C ,TAMPINES NTH DR 2 ,4Q/2021 ,30 Nov 2022  ,-  ,6,24,5,#08-329,"$376,600",93,False
+Tampines,4-Room,636A ,TAMPINES NTH DR 2 ,4Q/2021 ,30 Nov 2022  ,-  ,3,12,4,#04-337,,,True
+Tampines,4-Room,636A ,TAMPINES NTH DR 2 ,4Q/2021 ,30 Nov 2022  ,-  ,3,12,4,#09-337,,,True
+Tampines,4-Room,636A ,TAMPINES NTH DR 2 ,4Q/2021 ,30 Nov 2022  ,-  ,3,12,4,#12-337,,,True
+Tampines,4-Room,636A ,TAMPINES NTH DR 2 ,4Q/2021 ,30 Nov 2022  ,-  ,3,12,4,#03-339,"$360,700",93,False
+Tampines,4-Room,636A ,TAMPINES NTH DR 2 ,4Q/2021 ,30 Nov 2022  ,-  ,3,12,4,#04-339,"$365,200",93,False
+Tampines,4-Room,636A ,TAMPINES NTH DR 2 ,4Q/2021 ,30 Nov 2022  ,-  ,3,12,4,#05-339,"$369,700",93,False
+Tampines,4-Room,636B ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Oct 2022  ,-  ,7,23,8,#03-361,,,True
+Tampines,4-Room,636B ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Oct 2022  ,-  ,7,23,8,#07-361,,,True
+Tampines,4-Room,636B ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Oct 2022  ,-  ,7,23,8,#05-363,,,True
+Tampines,4-Room,636B ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Oct 2022  ,-  ,7,23,8,#03-365,"$357,100",93,False
+Tampines,4-Room,636B ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Oct 2022  ,-  ,7,23,8,#04-365,"$361,600",93,False
+Tampines,4-Room,636B ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Oct 2022  ,-  ,7,23,8,#05-365,"$366,100",93,False
+Tampines,4-Room,636C ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Oct 2022  ,-  ,0,6,6,#14-373,,,True
+Tampines,4-Room,636C ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Oct 2022  ,-  ,0,6,6,#03-375,"$360,700",93,False
+Tampines,4-Room,636C ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Oct 2022  ,-  ,0,6,6,#04-375,"$365,200",93,False
+Tampines,4-Room,636C ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Oct 2022  ,-  ,0,6,6,#05-375,"$369,700",93,False
+Tampines,4-Room,636C ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Oct 2022  ,-  ,0,6,6,#06-375,,,True
+Tampines,4-Room,636C ,TAMPINES NTH DR 2 ,4Q/2021 ,31 Oct 2022  ,-  ,0,6,6,#07-375,,,True
+Toa Payoh,3-ROOM,213C ,BIDADARI PK DR ,1Q/2022 ,28 Feb 2023  ,-  ,1,0,1,#08-607,,,True
+Toa Payoh,3-ROOM,213C ,BIDADARI PK DR ,1Q/2022 ,28 Feb 2023  ,-  ,1,0,1,#08-617,"$390,300",69,False
+Toa Payoh,3-ROOM,213C ,BIDADARI PK DR ,1Q/2022 ,28 Feb 2023  ,-  ,1,0,1,#10-617,,,True
+Toa Payoh,4-Room,213A ,BIDADARI PK DR ,1Q/2022 ,31 Jan 2023  ,-  ,1,0,1,#07-583,"$555,700",95,False
+Toa Payoh,4-Room,213A ,BIDADARI PK DR ,1Q/2022 ,31 Jan 2023  ,-  ,1,0,1,#12-585,,,True
+Toa Payoh,4-Room,214A ,BIDADARI PK DR ,1Q/2022 ,28 Feb 2023  ,-  ,1,0,1,#07-627,"$569,900",95,False
+Toa Payoh,4-Room,222 ,LOR 8 TOA PAYOH ,- ,NA (Keys Available) ,01 Mar 1976  ,1,0,1,#06-713*,"$219,400",82,False
+Toa Payoh,4-Room,266A ,KIM KEAT AVE ,3Q/2022 ,31 Jul 2023  ,-  ,4,0,4,#02-542,"$404,800",93,False
+Toa Payoh,4-Room,266A ,KIM KEAT AVE ,3Q/2022 ,31 Jul 2023  ,-  ,4,0,4,#03-542,,,True
+Toa Payoh,4-Room,266A ,KIM KEAT AVE ,3Q/2022 ,31 Jul 2023  ,-  ,4,0,4,#12-542,,,True
+Toa Payoh,4-Room,266A ,KIM KEAT AVE ,3Q/2022 ,31 Jul 2023  ,-  ,4,0,4,#03-544,,,True
+Toa Payoh,4-Room,266A ,KIM KEAT AVE ,3Q/2022 ,31 Jul 2023  ,-  ,4,0,4,#19-544,,,True
+Toa Payoh,4-Room,266A ,KIM KEAT AVE ,3Q/2022 ,31 Jul 2023  ,-  ,4,0,4,#02-546,"$404,800",93,False
+Woodlands,4-Room,183A ,WOODLANDS ST 13 ,- ,NA (Keys Available) ,01 Oct 2019  ,1,1,1,#08-631,"$280,200",93,False
+Woodlands,4-Room,183B ,WOODLANDS ST 13 ,- ,NA (Keys Available) ,01 Oct 2019  ,0,2,2,#05-623,"$270,300",93,False
+Woodlands,4-Room,183B ,WOODLANDS ST 13 ,- ,NA (Keys Available) ,01 Oct 2019  ,0,2,2,#06-623,,,True
+Woodlands,4-Room,183B ,WOODLANDS ST 13 ,- ,NA (Keys Available) ,01 Oct 2019  ,0,2,2,#03-625,"$266,400",93,False
+Woodlands,4-Room,187A ,MARSILING RD ,1Q/2022 ,31 Mar 2023  ,-  ,1,10,10,#03-980,"$273,400",93,False
+Woodlands,4-Room,187A ,MARSILING RD ,1Q/2022 ,31 Mar 2023  ,-  ,1,10,10,#16-980,"$308,400",93,False
+Woodlands,4-Room,187A ,MARSILING RD ,1Q/2022 ,31 Mar 2023  ,-  ,1,10,10,#19-980,"$312,600",93,False
+Woodlands,4-Room,187A ,MARSILING RD ,1Q/2022 ,31 Mar 2023  ,-  ,1,10,10,#26-980,"$321,900",93,False
+Woodlands,4-Room,187A ,MARSILING RD ,1Q/2022 ,31 Mar 2023  ,-  ,1,10,10,#10-982,"$295,200",93,False
+Woodlands,4-Room,187A ,MARSILING RD ,1Q/2022 ,31 Mar 2023  ,-  ,1,10,10,#20-982,"$314,000",93,False
+Woodlands,4-Room,188A ,MARSILING RD ,1Q/2022 ,31 Jan 2023  ,-  ,0,7,5,#02-912,"$268,400",93,False
+Woodlands,4-Room,188A ,MARSILING RD ,1Q/2022 ,31 Jan 2023  ,-  ,0,7,5,#18-912,"$306,600",93,False
+Woodlands,4-Room,188A ,MARSILING RD ,1Q/2022 ,31 Jan 2023  ,-  ,0,7,5,#18-914,"$306,000",93,False
+Woodlands,4-Room,188A ,MARSILING RD ,1Q/2022 ,31 Jan 2023  ,-  ,0,7,5,#19-914,"$313,100",93,False
+Woodlands,4-Room,188A ,MARSILING RD ,1Q/2022 ,31 Jan 2023  ,-  ,0,7,5,#05-916,"$281,900",93,False
+Woodlands,4-Room,188A ,MARSILING RD ,1Q/2022 ,31 Jan 2023  ,-  ,0,7,5,#10-916,"$295,400",93,False
+Woodlands,4-Room,188B ,MARSILING RD ,1Q/2022 ,28 Feb 2023  ,-  ,0,6,6,#18-920,"$311,700",93,False
+Woodlands,4-Room,188B ,MARSILING RD ,1Q/2022 ,28 Feb 2023  ,-  ,0,6,6,#20-920,"$308,800",93,False
+Woodlands,4-Room,188B ,MARSILING RD ,1Q/2022 ,28 Feb 2023  ,-  ,0,6,6,#19-922,"$313,100",93,False
+Woodlands,4-Room,188B ,MARSILING RD ,1Q/2022 ,28 Feb 2023  ,-  ,0,6,6,#20-922,"$309,400",93,False
+Woodlands,4-Room,188B ,MARSILING RD ,1Q/2022 ,28 Feb 2023  ,-  ,0,6,6,#10-924,"$290,600",93,False
+Woodlands,4-Room,188B ,MARSILING RD ,1Q/2022 ,28 Feb 2023  ,-  ,0,6,6,#17-924,"$300,400",93,False
+Woodlands,4-Room,189A ,MARSILING RD ,1Q/2022 ,28 Feb 2023  ,-  ,0,6,6,#14-954,"$300,800",93,False
+Woodlands,4-Room,189A ,MARSILING RD ,1Q/2022 ,28 Feb 2023  ,-  ,0,6,6,#15-954,"$297,000",93,False
+Woodlands,4-Room,189A ,MARSILING RD ,1Q/2022 ,28 Feb 2023  ,-  ,0,6,6,#17-954,"$305,000",93,False
+Woodlands,4-Room,189A ,MARSILING RD ,1Q/2022 ,28 Feb 2023  ,-  ,0,6,6,#12-956,"$302,800",93,False
+Woodlands,4-Room,189A ,MARSILING RD ,1Q/2022 ,28 Feb 2023  ,-  ,0,6,6,#14-956,,,True
+Woodlands,4-Room,189A ,MARSILING RD ,1Q/2022 ,28 Feb 2023  ,-  ,0,6,6,#02-958,"$263,800",93,False
+Woodlands,4-Room,189B ,MARSILING RD ,1Q/2022 ,31 Mar 2023  ,-  ,1,3,3,#04-968,"$275,200",93,False
+Woodlands,4-Room,189B ,MARSILING RD ,1Q/2022 ,31 Mar 2023  ,-  ,1,3,3,#18-968,"$311,700",93,False
+Woodlands,4-Room,189B ,MARSILING RD ,1Q/2022 ,31 Mar 2023  ,-  ,1,3,3,#21-968,"$315,400",93,False
+Woodlands,4-Room,189B ,MARSILING RD ,1Q/2022 ,31 Mar 2023  ,-  ,1,3,3,#06-970,,,True
+Woodlands,4-Room,573C ,WOODLANDS DR 16 ,- ,NA (Keys Available) ,01 Jun 2018  ,0,1,1,#04-670,"$260,500",93,False
+Woodlands,4-Room,574A ,WOODLANDS DR 16 ,- ,NA (Keys Available) ,01 Jun 2018  ,2,2,2,#02-702,"$252,100",93,False
+Woodlands,4-Room,574A ,WOODLANDS DR 16 ,- ,NA (Keys Available) ,01 Jun 2018  ,2,2,2,#05-708*,"$261,500",93,False
+Woodlands,4-Room,682A ,WOODLANDS DR 62 ,- ,NA (Keys Available) ,01 Feb 2000  ,1,1,1,#13-87*,"$291,000",105,False
+Woodlands,4-Room,693B ,WOODLANDS AVE 6 ,- ,NA (Keys Available) ,01 Sep 2018  ,0,1,1,#04-731,"$270,800",92,False
+Woodlands,4-Room,694C ,WOODLANDS DR 62 ,- ,NA (Keys Available) ,01 Sep 2018  ,1,1,1,#04-54,"$270,500",93,False
+Woodlands,4-Room,781B ,WOODLANDS AVE 9 ,4Q/2021 ,31 Oct 2022  ,-  ,1,1,1,#09-502,"$271,600",93,False
+Woodlands,4-Room,781B ,WOODLANDS AVE 9 ,4Q/2021 ,31 Oct 2022  ,-  ,1,1,1,#08-506,,,True
+Woodlands,4-Room,781C ,WOODLANDS AVE 9 ,4Q/2021 ,31 Oct 2022  ,-  ,0,1,0,#15-542,"$274,800",93,False
+Woodlands,4-Room,781D ,WOODLANDS AVE 9 ,4Q/2021 ,30 Nov 2022  ,-  ,0,1,0,#14-564,"$277,800",93,False
+Woodlands,4-Room,784C ,WOODLANDS RISE ,- ,NA (Keys Available) ,01 Jul 2018  ,0,1,1,#02-38,"$244,600",93,False
+Woodlands,4-Room,785D ,WOODLANDS RISE ,- ,NA (Keys Available) ,01 Jul 2018  ,0,1,1,#08-48,"$273,600",93,False
+Woodlands,4-Room,799A ,WOODLANDS DR 60 ,4Q/2020 ,31 Dec 2021  ,-  ,0,1,1,#11-113,"$287,000",93,False
+Woodlands,4-Room,889A ,WOODLANDS DR 50 ,- ,NA (Keys Available) ,01 Jul 2017  ,1,1,1,#02-221,"$262,200",93,False
+Yishun,4-Room,278 ,YISHUN ST 22 ,- ,NA (Keys Available) ,01 Oct 1985  ,1,1,0,#04-284*,"$206,000",84,False
+Yishun,4-Room,283 ,YISHUN AVE 6 ,- ,NA (Keys Available) ,01 Oct 1985  ,1,1,0,#06-160*,"$251,000",105,False
+Yishun,4-Room,316B ,YISHUN AVE 9 ,- ,NA (Keys Available) ,01 Oct 2015  ,1,1,1,#15-224*,"$313,000",92,False
+Yishun,4-Room,347A ,YISHUN AVE 11 ,- ,NA (Keys Available) ,17 Sep 2013  ,1,1,1,#03-511*,"$426,000",92,False
+Yishun,4-Room,397 ,YISHUN AVE 6 ,- ,NA (Keys Available) ,01 Feb 1989  ,0,1,1,#07-1144*,"$246,000",105,False
+Yishun,4-Room,399 ,YISHUN AVE 6 ,- ,NA (Keys Available) ,01 Mar 1989  ,1,1,1,#05-1168*,"$241,000",105,False
+Yishun,4-Room,426B ,YISHUN AVE 11 ,- ,NA (Keys Available) ,01 Mar 2015  ,1,1,1,#04-116*,"$271,000",92,False
+Yishun,4-Room,462A ,YISHUN AVE 6 ,- ,NA (Keys Available) ,01 Aug 2019  ,1,1,1,#05-1153,"$277,000",93,False
+Yishun,4-Room,462B ,YISHUN AVE 6 ,- ,NA (Keys Available) ,01 Aug 2019  ,1,1,1,#04-1137,"$276,800",93,False
+Yishun,4-Room,462C ,YISHUN AVE 6 ,- ,NA (Keys Available) ,01 Aug 2019  ,0,2,2,#06-1101,"$275,300",93,False
+Yishun,4-Room,462C ,YISHUN AVE 6 ,- ,NA (Keys Available) ,01 Aug 2019  ,0,2,2,#11-1105,"$296,000",93,False
+Yishun,4-Room,462D ,YISHUN AVE 6 ,- ,NA (Keys Available) ,01 Aug 2019  ,0,4,2,#08-1071,"$291,800",93,False
+Yishun,4-Room,462D ,YISHUN AVE 6 ,- ,NA (Keys Available) ,01 Aug 2019  ,0,4,2,#13-1071,"$298,800",93,False
+Yishun,4-Room,462D ,YISHUN AVE 6 ,- ,NA (Keys Available) ,01 Aug 2019  ,0,4,2,#11-1073,"$298,400",93,False
+Yishun,4-Room,462D ,YISHUN AVE 6 ,- ,NA (Keys Available) ,01 Aug 2019  ,0,4,2,#04-1079,"$272,100",93,False
+Yishun,4-Room,465A ,YISHUN AVE 6 ,3Q/2021 ,31 Jul 2022  ,-  ,1,2,1,#08-1187,"$296,800",93,False
+Yishun,4-Room,465A ,YISHUN AVE 6 ,3Q/2021 ,31 Jul 2022  ,-  ,1,2,1,#03-1189,"$272,400",93,False
+Yishun,4-Room,466A ,YISHUN AVE 6 ,3Q/2021 ,31 Aug 2022  ,-  ,0,1,0,#13-1227,"$297,500",93,False
+Yishun,4-Room,466B ,YISHUN AVE 6 ,3Q/2021 ,30 Sep 2022  ,-  ,1,2,0,#06-1269,"$290,100",93,False
+Yishun,4-Room,466B ,YISHUN AVE 6 ,3Q/2021 ,30 Sep 2022  ,-  ,1,2,0,#12-1271,"$297,500",93,False
+Yishun,4-Room,467A ,YISHUN AVE 6 ,3Q/2021 ,30 Sep 2022  ,-  ,0,2,0,#13-1277,"$297,500",93,False
+Yishun,4-Room,467A ,YISHUN AVE 6 ,3Q/2021 ,30 Sep 2022  ,-  ,0,2,0,#07-1279,"$288,400",93,False
+Yishun,4-Room,467C ,YISHUN AVE 6 ,4Q/2021 ,31 Oct 2022  ,-  ,0,3,2,#08-1325,"$296,800",93,False
+Yishun,4-Room,467C ,YISHUN AVE 6 ,4Q/2021 ,31 Oct 2022  ,-  ,0,3,2,#06-1327,"$289,800",93,False
+Yishun,4-Room,467C ,YISHUN AVE 6 ,4Q/2021 ,31 Oct 2022  ,-  ,0,3,2,#08-1331,"$291,900",93,False
+Yishun,4-Room,468A ,YISHUN ST 43 ,- ,NA (Keys Available) ,01 Nov 2019  ,2,6,1,#09-49,"$295,300",93,False
+Yishun,4-Room,468A ,YISHUN ST 43 ,- ,NA (Keys Available) ,01 Nov 2019  ,2,6,1,#05-59,"$278,500",93,False
+Yishun,4-Room,468A ,YISHUN ST 43 ,- ,NA (Keys Available) ,01 Nov 2019  ,2,6,1,#12-67,"$297,800",93,False
+Yishun,4-Room,468A ,YISHUN ST 43 ,- ,NA (Keys Available) ,01 Nov 2019  ,2,6,1,#07-69,"$285,500",93,False
+Yishun,4-Room,468A ,YISHUN ST 43 ,- ,NA (Keys Available) ,01 Nov 2019  ,2,6,1,#09-69,"$290,400",93,False
+Yishun,4-Room,468A ,YISHUN ST 43 ,- ,NA (Keys Available) ,01 Nov 2019  ,2,6,1,#07-79,"$290,400",93,False
+Yishun,4-Room,469A ,YISHUN ST 43 ,- ,NA (Keys Available) ,01 Nov 2019  ,0,1,1,#14-03,"$290,500",93,False
+Yishun,4-Room,469B ,YISHUN ST 43 ,- ,NA (Keys Available) ,01 Nov 2019  ,0,1,1,#12-47,"$289,100",93,False
+Yishun,4-Room,471A ,YISHUN ST 42 ,3Q/2021 ,31 Aug 2022  ,-  ,0,2,0,#13-301,"$301,400",93,False
+Yishun,4-Room,471A ,YISHUN ST 42 ,3Q/2021 ,31 Aug 2022  ,-  ,0,2,0,#13-311,"$301,400",93,False
+Yishun,4-Room,475A ,YISHUN ST 44 ,4Q/2021 ,31 Oct 2022  ,-  ,1,26,6,#03-72,"$271,600",93,False
+Yishun,4-Room,475A ,YISHUN ST 44 ,4Q/2021 ,31 Oct 2022  ,-  ,1,26,6,#04-72,"$276,200",93,False
+Yishun,4-Room,475A ,YISHUN ST 44 ,4Q/2021 ,31 Oct 2022  ,-  ,1,26,6,#05-72,"$280,800",93,False
+Yishun,4-Room,475A ,YISHUN ST 44 ,4Q/2021 ,31 Oct 2022  ,-  ,1,26,6,#06-72,"$283,900",93,False
+Yishun,4-Room,475A ,YISHUN ST 44 ,4Q/2021 ,31 Oct 2022  ,-  ,1,26,6,#07-72,"$287,000",93,False
+Yishun,4-Room,475A ,YISHUN ST 44 ,4Q/2021 ,31 Oct 2022  ,-  ,1,26,6,#09-72,"$291,300",93,False
+Yishun,4-Room,475B ,YISHUN ST 44 ,4Q/2021 ,31 Oct 2022  ,-  ,20,97,16,#02-86,"$270,100",93,False
+Yishun,4-Room,475B ,YISHUN ST 44 ,4Q/2021 ,31 Oct 2022  ,-  ,20,97,16,#03-86,"$274,700",93,False
+Yishun,4-Room,475B ,YISHUN ST 44 ,4Q/2021 ,31 Oct 2022  ,-  ,20,97,16,#04-86,"$279,300",93,False
+Yishun,4-Room,475B ,YISHUN ST 44 ,4Q/2021 ,31 Oct 2022  ,-  ,20,97,16,#05-86,"$283,900",93,False
+Yishun,4-Room,475B ,YISHUN ST 44 ,4Q/2021 ,31 Oct 2022  ,-  ,20,97,16,#11-86,"$296,800",93,False
+Yishun,4-Room,475B ,YISHUN ST 44 ,4Q/2021 ,31 Oct 2022  ,-  ,20,97,16,#02-88,"$270,100",93,False
+Yishun,4-Room,477B ,YISHUN ST 44 ,4Q/2021 ,30 Nov 2022  ,-  ,1,17,5,#02-130,"$267,000",93,False
+Yishun,4-Room,477B ,YISHUN ST 44 ,4Q/2021 ,30 Nov 2022  ,-  ,1,17,5,#03-130,"$271,600",93,False
+Yishun,4-Room,477B ,YISHUN ST 44 ,4Q/2021 ,30 Nov 2022  ,-  ,1,17,5,#04-130,"$276,200",93,False
+Yishun,4-Room,477B ,YISHUN ST 44 ,4Q/2021 ,30 Nov 2022  ,-  ,1,17,5,#05-130,"$280,800",93,False
+Yishun,4-Room,477B ,YISHUN ST 44 ,4Q/2021 ,30 Nov 2022  ,-  ,1,17,5,#06-130,"$283,900",93,False
+Yishun,4-Room,477B ,YISHUN ST 44 ,4Q/2021 ,30 Nov 2022  ,-  ,1,17,5,#07-130,"$287,000",93,False
+Yishun,4-Room,477C ,YISHUN ST 44 ,4Q/2021 ,30 Nov 2022  ,-  ,6,40,6,#02-136,"$260,800",93,False
+Yishun,4-Room,477C ,YISHUN ST 44 ,4Q/2021 ,30 Nov 2022  ,-  ,6,40,6,#03-136,"$271,600",93,False
+Yishun,4-Room,477C ,YISHUN ST 44 ,4Q/2021 ,30 Nov 2022  ,-  ,6,40,6,#06-136,"$283,900",93,False
+Yishun,4-Room,477C ,YISHUN ST 44 ,4Q/2021 ,30 Nov 2022  ,-  ,6,40,6,#07-136,"$287,000",93,False
+Yishun,4-Room,477C ,YISHUN ST 44 ,4Q/2021 ,30 Nov 2022  ,-  ,6,40,6,#08-136,"$290,100",93,False
+Yishun,4-Room,477C ,YISHUN ST 44 ,4Q/2021 ,30 Nov 2022  ,-  ,6,40,6,#09-136,"$291,300",93,False
+Yishun,4-Room,478C ,YISHUN ST 44 ,- ,NA (Keys Available) ,01 Jan 2021  ,1,1,1,#08-153,"$293,100",93,False
+Yishun,4-Room,479C ,YISHUN ST 42 ,- ,NA (Keys Available) ,01 Apr 2021  ,0,1,1,#03-25,"$268,300",93,False
+Yishun,4-Room,501B ,YISHUN ST 51 ,- ,NA (Keys Available) ,01 Jan 2018  ,1,1,1,#04-476,"$303,900",92,False
+Yishun,4-Room,504A ,YISHUN ST 51 ,- ,NA (Keys Available) ,01 Mar 2016  ,0,1,1,#04-92*,"$264,000",92,False
+Yishun,4-Room,511A ,YISHUN ST 51 ,- ,NA (Keys Available) ,01 Aug 2017  ,1,1,1,#05-423*,"$283,000",93,False
+Yishun,4-Room,513A ,YISHUN ST 51 ,- ,NA (Keys Available) ,01 Feb 2018  ,0,1,1,#02-385,"$290,000",93,False
+Yishun,4-Room,513B ,YISHUN ST 51 ,- ,NA (Keys Available) ,01 Feb 2018  ,0,1,1,#12-365*,"$305,000",93,False
+Yishun,4-Room,675B ,YISHUN AVE 4 ,- ,NA (Keys Available) ,01 Nov 2018  ,1,1,1,#06-784,"$287,200",93,False
+Yishun,4-Room,721 ,YISHUN ST 71 ,- ,NA (Keys Available) ,01 Sep 1985  ,1,1,1,#09-269*,"$246,000",84,False
+Yishun,4-Room,736 ,YISHUN ST 72 ,- ,NA (Keys Available) ,01 Oct 1984  ,1,1,1,#02-53*,"$321,000",93,False

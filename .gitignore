@@ -1,3 +1,8 @@
 .ipynb_checkpoints/
 .DS_store
 __pycache__/
+# output contents
+scrape-resale-prices/output/*.csv
+scrape-resale-prices/output/*.xlsx
+scrape-hdb-sbf-obf/output/*.csv
+scrape-hdb-sbf-obf/output/*.xlsx

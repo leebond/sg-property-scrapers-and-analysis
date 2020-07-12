@@ -6,3 +6,5 @@ scrape-resale-prices/output/*.csv
 scrape-resale-prices/output/*.xlsx
 scrape-hdb-sbf-obf/output/*.csv
 scrape-hdb-sbf-obf/output/*.xlsx
+scrape-hdb-sbf-obf/data/*.csv
+scrape-hdb-sbf-obf/data/*.xlsx

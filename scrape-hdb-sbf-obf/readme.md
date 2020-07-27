@@ -1,7 +1,8 @@
 # Description
-This folder contains scrapers for...
-- HDB SBF units which are not booked
+This folder contains web scrapers for...
+- HDB SBF (Sale of Balance Flats) and OBF (Open Booking Flats) units which are not booked
 - HDB SBF application status
+##### SBF and OBF are Singapore HDB public housing sale schemes
 
 ## Usage: Scraper for HDB SBF units which are not booked
 Run `python scrapeHDB_SBF_flat_details.py`

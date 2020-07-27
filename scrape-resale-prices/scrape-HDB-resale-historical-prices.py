@@ -17,6 +17,7 @@ from selenium.common.exceptions import NoSuchElementException
 import pandas as pd
 from datetime import datetime
 from urllib.parse import unquote_plus
+from tqdm import tqdm
 
 def clickBuyerOption(buyer_button_xpath):
     # buyer_button = WebDriverWait(driver, 3).until(EC.visibility_of_element_located((By.XPATH, buyer_button_xpath)))
@@ -104,9 +105,9 @@ if __name__=='__main__':
                 form_element = driver.find_element_by_xpath(form_xpath)
                 if form_element:
                     print(flat_type, hdb_town)
-                    flat_type_options_selector = getFlatTypeSelector(flat_type_xpath)
-                    hdb_town_options_selector = getFlatTypeSelector(hdb_town_xpath)
-                    last_date_options_selector = getFlatTypeSelector(last_date_xpath)
+                    flat_type_options_selector = getSelector(flat_type_xpath)
+                    hdb_town_options_selector = getSelector(hdb_town_xpath)
+                    last_date_options_selector = getSelector(last_date_xpath)
                     
                     clickBuyerOption(buyer_button_xpath)
                     flat_type_options_selector.select_by_value(flat_type) #('04')
@@ -129,8 +130,8 @@ if __name__=='__main__':
                                 print('Resale Table Details Present')
                                 resale_details_table_xpath = '//*[@id="divLargeDetail2"]/div/div[3]/table/tbody/tr[*]'
                                 resale_details_table_rows = driver.find_elements_by_xpath(resale_details_table_xpath)
-                                print(len(resale_details_table_rows))
-                                for row in range(1, len(resale_details_table_rows)+1):
+                                print(f'{len(resale_details_table_rows)} transactions found' )
+                                for row in tqdm(range(1, len(resale_details_table_rows)+1)):
                                     df = getTownResaleDetails(df, hdb_town, flat_type, row)
                                 print('New Enquiry')
                                 new_xpath = '//*[@id="btns"]/div[1]/a'
@@ -148,4 +149,4 @@ if __name__=='__main__':
     print(df.shape)
     if not os.path.exists('output'):
         os.makedirs('output')
-    df.to_excel(f"./output/HDB_resale_prices{datetime.now().date()}.xlsx", index=False)
+    df.to_excel(f"./output/HDB_resale_prices_{datetime.now().date()}.xlsx", index=False)

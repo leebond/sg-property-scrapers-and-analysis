@@ -1,13 +1,13 @@
 
 # Description
-In this folder I have scrapers for...
-- HDB Resale prices and details
+This folder contains a web scraper 
+- `scrape-HDB-resale-historical-prices.py` that scrapes transaction details of HDB Resale units.
 
 ### Analysis
-I have added a iPython Notebook that analyses HDB resale transactions.
-You may find the analysis in `HDB Resale Analysis.ipynb`
+I am in progress of adding a iPython Notebook that analyses HDB resale transactions.
+You may find the analysis in `HDB Resale Analysis.ipynb` in time to come.
 
-Here are some analyses:
+Here are some prelimnary analyses:
 
 - Resale Volume
 

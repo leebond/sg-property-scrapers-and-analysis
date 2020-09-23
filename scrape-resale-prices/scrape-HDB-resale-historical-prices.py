@@ -43,6 +43,16 @@ def getSelector(xpath):
     if elem:
         return Select(elem)
 
+def cleanSqm(sqm_text):
+    sqm_num = re.findall('\d+.\d+',sqm_text)[0]
+    sqm_desc = re.findall('[A-Za-z]+',sqm_text)[0]
+    return sqm_num, sqm_desc
+
+def cleanTown(town_text):
+    town_list = town_text.split()
+    town_code = town_list[0]
+    town_name = ' '.join(town_list[1:])
+    return town_code, town_name
 
 def getTownResaleDetails(df, town, flat_type, row):
     main = f'//*[@id="divLargeDetail2"]/div/div[3]/table/tbody/tr[{str(row)}]/'
@@ -64,8 +74,12 @@ def getTownResaleDetails(df, town, flat_type, row):
     rrd_xpath = main+'td[8]'
     rrd = driver.find_element_by_xpath(rrd_xpath).text
     
-    df = df.append({'Town': town,'Room Type': flat_type,'Block': block,'Street': street,'Storey': storey,'Lease Commencement Date': lcd,\
-                    'Remaining Lease': rl,'Resale Registration Date': rrd, 'Price': price, 'Sqm': sqm}, ignore_index=True)
+    
+    sqm_num, sqm_desc = cleanSqm(sqm)
+    town_code, town_name = cleanTown(town)
+    
+    df = df.append({'Town Code': town_code,'Town': town_name,'Room Type': flat_type,'Block': block,'Street': street,'Storey': storey,'Lease Commencement Date': lcd,\
+                    'Remaining Lease': rl,'Resale Registration Date': rrd, 'Price': price, 'Sqm': sqm_num, 'Type': sqm_desc}, ignore_index=True)
     return df
 
 
@@ -112,7 +126,7 @@ if __name__=='__main__':
                     clickBuyerOption(buyer_button_xpath)
                     flat_type_options_selector.select_by_value(flat_type) #('04')
                     hdb_town_options_selector.select_by_value(hdb_town) #('QT      Queenstown')select_by_value
-                    last_date_options_selector.select_by_value('12')
+                    last_date_options_selector.select_by_value('6')
             
                     # driver.implicitly_wait(100)
                     submit_btn_xpath = '/html/body/form[1]/div[3]/div[1]/a'

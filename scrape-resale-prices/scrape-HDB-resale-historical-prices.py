@@ -171,7 +171,11 @@ if __name__=='__main__':
                                 print(f'{len(resale_details_table_rows)} transactions found' )
                                 for row in tqdm(range(1, len(resale_details_table_rows)+1)):
                                     df = getTownResaleDetails(df, hdb_town, flat_type, row)
+                                
+                                if not os.path.exists('output'):
+                                    os.makedirs('output')
                                 df.to_excel(f"./output/HDB_resale_prices_{datetime.now().date()}.xlsx", index=False)
+                                
                                 print('New Enquiry')
                                 new_xpath = '//*[@id="btns"]/div[1]/a'
                                 new_enquiry_btn = driver.find_element_by_xpath(new_xpath)

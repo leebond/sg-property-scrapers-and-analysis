@@ -51,17 +51,17 @@ def preprocessHDBdf(hdb):
     hdb['Remaining Lease (Month)'] = hdb['Remaining Lease'].apply(getRemainingLeaseMonth)
     hdb['Remaining Lease in Months'] = hdb['Remaining Lease (Year)']*12 + hdb['Remaining Lease (Month)']
     
-    hdb['Floor Area Sqm'] = hdb['Sqm'].apply(getFloorArea)
-    hdb['Model Type'] = hdb['Sqm'].apply(getModelType)
+    # hdb['Floor Area Sqm'] = hdb['Sqm'].apply(getFloorArea)
+    # hdb['Model Type'] = hdb['Sqm'].apply(getModelType)
     
     hdb['Price'] = hdb['Price'].apply(cleanPrice)
     hdb['Price'] = hdb['Price'].astype(float)
-    hdb['Town Name'] = hdb['Town'].apply(getTownName)
+    # hdb['Town Name'] = hdb['Town'].apply(getTownName)
     
     SQM_to_SQFT = 10.764
-    hdb['Floor Area Sqft'] = hdb['Floor Area Sqm']*SQM_to_SQFT
-    hdb['Price per Sqm'] = hdb['Price']/hdb['Floor Area Sqm']
-    hdb['Price per Sqft'] = hdb['Price']/hdb['Floor Area Sqft']
+    hdb['Sqft'] = hdb['Sqm']*SQM_to_SQFT
+    hdb['Price per Sqm'] = hdb['Price']/hdb['Sqm']
+    hdb['Price per Sqft'] = hdb['Price']/hdb['Sqft']
     hdb['Price per Sqft per Remaining Lease year'] = hdb['Price per Sqft']/hdb['Remaining Lease in Months']*12
     hdb['Storey Range + Room Type'] = hdb['Storey'] + ' ' + hdb['Room Type']
     

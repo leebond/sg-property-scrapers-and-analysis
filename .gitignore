@@ -5,7 +5,7 @@ __pycache__/
 # output contents
 */output/*.csv
 */output/*.xlsx
-
+!*/output/Private_resale_prices_2020-10-18.xlsx
 
 # debug
 *.log

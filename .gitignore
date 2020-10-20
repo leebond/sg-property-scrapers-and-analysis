@@ -2,10 +2,15 @@
 .DS_store
 __pycache__/
 
-# output contents
-*/output/*.csv
-*/output/*.xlsx
-!*/output/Private_resale_prices_2020-10-18.xlsx
+# ignore output contents
+**.csv
+**.xlsx
+
+# But not these files...
+!**Private_resale_prices_2020-10-18.xlsx
+!**HDB_resale_prices_2020-10-14.xlsx
+
+
 
 # debug
 *.log

@@ -34,4 +34,4 @@ Here are some prelimnary analyses:
 <img src=".\public\remaining_lease_byTown.png" width="640px">
 
 ### Advanced Analysis
-Coming soon..
+- refer to .\.ipynb file

@@ -44,8 +44,8 @@ def getTownName(row):
 def preprocessHDBdf(hdb):
     hdb['Street'] = hdb['Street'].str.strip()
 
-    flat_type_conversion = {1:'1-Room',2:'2-Room',3:'3-Room',4:'4-Room',5:'5-Room',6:'Executive',8:'Multi-Generation'}
-    hdb.replace({'Room Type': flat_type_conversion}, inplace=True)
+    # flat_type_conversion = {1:'1-Room',2:'2-Room',3:'3-Room',4:'4-Room',5:'5-Room',6:'Executive',8:'Multi-Generation'}
+    # hdb.replace({'Room Type': flat_type_conversion}, inplace=True)
     
     hdb['Remaining Lease (Year)'] = hdb['Remaining Lease'].apply(getRemainingLeaseYear)
     hdb['Remaining Lease (Month)'] = hdb['Remaining Lease'].apply(getRemainingLeaseMonth)
@@ -59,11 +59,12 @@ def preprocessHDBdf(hdb):
     # hdb['Town Name'] = hdb['Town'].apply(getTownName)
     
     SQM_to_SQFT = 10.764
+    hdb['Sqm'] = hdb['Floor Area'].copy()
     hdb['Sqft'] = hdb['Sqm']*SQM_to_SQFT
     hdb['Price per Sqm'] = hdb['Price']/hdb['Sqm']
     hdb['Price per Sqft'] = hdb['Price']/hdb['Sqft']
     hdb['Price per Sqft per Remaining Lease year'] = hdb['Price per Sqft']/hdb['Remaining Lease in Months']*12
-    hdb['Storey Range + Room Type'] = hdb['Storey'] + ' ' + hdb['Room Type']
+    hdb['Storey Range + Flat Type'] = hdb['Storey'] + ' ' + hdb['Flat Type']
     
     hdb['Resale Registration Date'] = pd.to_datetime(hdb['Resale Registration Date'], format='%b %Y')
     hdb['Resale Registration Date'] = hdb['Resale Registration Date'].apply(lambda x: datetime.strftime(x, '%b %Y'))

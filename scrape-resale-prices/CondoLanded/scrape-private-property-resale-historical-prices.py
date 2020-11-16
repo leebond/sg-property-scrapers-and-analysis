@@ -41,6 +41,7 @@ def getSelector(xpath):
     else:
         print('Date not selected')
 
+
 def setDateSelectors():
     date_options_xpath = '/html/body/div/div[4]/div[4]/form/div/div[1]/div[1]/div/div/select[1]'
     date_values = getOptions(date_options_xpath)
@@ -69,8 +70,12 @@ def getTableData():
             
     return project_tbl_data
 
+
+
+
 if __name__=='__main__':
     if len(sys.argv) < 2:
+        print('please provide run type >python this_script.py "new" or "continue"')
         sys.exit(0)
     mode = sys.argv[1]
     print(mode)
@@ -91,20 +96,21 @@ if __name__=='__main__':
     
     if not os.path.exists('output'):
         os.makedirs('output')
-    output_filepath = './output/Private_*.xlsx'
-    files = glob(output_filepath)
-    latest_file = files[-1]
-    print(latest_file)
-    saved_df = pd.read_excel(latest_file)
-    saved_projects = saved_df['Project Name'].unique().tolist()
-    last_saved_project = saved_projects[-1]
-    print(last_saved_project)
-    print(len(saved_projects))
-    
+
+
     if mode == 'new':
         start_count = 0
     elif mode == 'continue':
         # print(projects_names)
+        output_filepath = './output/Private_*.xlsx'
+        files = glob(output_filepath)
+        latest_file = files[-1]
+        print(latest_file)
+        saved_df = pd.read_excel(latest_file)
+        saved_projects = saved_df['Project Name'].unique().tolist()
+        last_saved_project = saved_projects[-1]
+        print(last_saved_project)
+        print(len(saved_projects))
         start_count = projects_names.index(last_saved_project)
     
     for i in tqdm(range(start_count, len(projects))):
@@ -114,12 +120,6 @@ if __name__=='__main__':
         project_xpath = '/html/body/div/div[4]/div[4]/form/div/div[1]/div[3]/div/div[1]/div/a'
         projects = driver.find_elements_by_xpath(project_xpath)
         
-        
-        # search_bar_xpath = '/html/body/div/div[4]/div[4]/form/div/div[1]/div[3]/div/div[1]/input'
-        # search_bar = driver.find_elements_by_xpath(project_xpath)
-        # driver.execute_script("arguments[0].scrollIntoView();", search_bar)
-        # actions = ActionChains(driver)
-        # actions.move_to_element(search_bar).perform()
         
         print(i, projects[i].text)
         # WebDriverWait(driver, 3).until(EC.visibility_of_element_located((By.XPATH, projects[i]))).click()
@@ -169,7 +169,8 @@ if __name__=='__main__':
                                          ,'Date of Sale']
             print('%s records found' %project_tbl_df.shape[0])
             df = df.append(project_tbl_df, ignore_index=True)
-            
+        
+        if i % 20 == 0:
             if not os.path.exists('output'):
                 os.makedirs('output')
             df.to_excel(f"./output/Private_resale_prices_{datetime.now().date()}{saved_projects[-1]}.xlsx", index=False)

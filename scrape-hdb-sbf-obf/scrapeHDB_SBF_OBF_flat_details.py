@@ -69,7 +69,7 @@ dteBallot=202003&
 projName=A
 '''
 
-import re, os
+import re, os, time, random
 import itertools
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -117,6 +117,9 @@ def getUnitAndPrice():
 
     
 def getBlockData(df, exercise, town, room_type):
+    blockData_xpath = '//*[@id="blockDetails"]/div[2]'
+    WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.XPATH, blockData_xpath)))
+    
     block = driver.find_element_by_xpath('//*[@id="blockDetails"]/div[2]/div[2]').text
     street = driver.find_element_by_xpath('//*[@id="blockDetails"]/div[2]/div[4]').text
     pcd = driver.find_element_by_xpath('//*[@id="blockDetails"]/div[3]/div[2]').text
@@ -167,32 +170,50 @@ flatsearchhttp = 'https://services2.hdb.gov.sg/webapp/BP13AWFlatAvail/BP13EBSFla
 towns=['Ang Mo Kio','Bukit Batok','Bedok','Bishan','Bukit Merah','Bukit Panjang','Bukit Timah','Central','Choa Chu Kang',\
        'Clementi','Geylang','Hougang','Jurong East','Jurong West','Kallang/Whampoa','Marine Parade','Punggol',\
        'Pasir Ris','Queenstown','Sembawang','Serangoon','Sengkang','Tampines','Toa Payoh','Woodlands','Yishun']
-towns=[re.sub(' ','%20',town) for town in towns]
-    
-flats=['2-Room+Flexi+%28Short+Lease%29','2-Room+Flexi+%28Short+Lease%2F99-Year+Lease%29','3-ROOM','4-Room','5-Room','5-Room%2F3Gen'] # '2-Room+Flexi+%28Short+Lease%29', '2-Room+Flexi+%28Short+Lease%2F99-Year+Lease%29',
-flats=[re.sub(' ','%20',flat) for flat in flats]
 
-hdb_exercises = ['SBF', 'OBF']
+towns=[re.sub(' ','+',town) for town in towns]
+    
+flats=['4-Room','5-Room%2F3Gen'] # '3-ROOM', '2-Room+Flexi+%28Short+Lease%29', '2-Room+Flexi+%28Short+Lease%2F99-Year+Lease%29', ,'5-Room%2F3Gen'
+flats=[re.sub(' ','+',flat) for flat in flats]
+
+hdb_exercises = ['SBF'] # , 'OBF'
 
 df = pd.DataFrame(columns = ['HDB Exercise', 'Town', 'Room Type', 'Block', 'Street', 'Probable Completion Date', 'Delivery Possession Date', 'Lease Commencement Date', \
                              'Ethic Quota-Malay', 'Ethic Quota-Chinese', 'Ethic Quota-Indian Others', 'Unit', 'Price', 'Sqm', 'IsBooked'])
+
+## Static Params
+DesType = 'A' #'S'=Standard 'A'=Any, 'P'=Premium
+ethnic = 'Y'
+ViewOption = 'A'
+projName = 'A'
+brochure = 'true'
+Block = '0'
+EthnicA='Y'
+EthnicM=''
+EthnicC=''
+EthnicO=''
+numSPR=''
+Neighbourhood=''
+Contract=''
+BonusFlats1='N'
+searchDetails='Y'
 
 for exercise in hdb_exercises:
     for mytown in towns:
         print(mytown)
         for myflat in flats:
             print(myflat)
+            
+            ## Dynamic Params
             town=mytown #'Ang+Mo+Kio' #'ANG%20MO%20KIO'
             flat_type = exercise # 'SBF' # 'OBF'
-            DesType = 'A' #'S'=Standard 'A'=Any, 'P'=Premium
-            ethnic = 'Y'
+            dteBallot = '202011' if exercise == 'SBF' else '202003' # 'OBF'
             flat = myflat #'2-Room%20Flexi%20(Short%20Lease)'
-            ViewOption = 'A'
-            dteBallot = '201911' if exercise == 'SBF' else '202003' # 'OBF'
-            projName = 'A'
-            brochure = 'true'
-            params = ['Town='+town, 'Flat_Type='+flat_type, 'DesType='+DesType, 'ethnic='+ethnic, 'Flat='+flat,\
-                      'ViewOption='+ViewOption, 'dteBallot='+dteBallot, 'projName='+projName, 'brochure='+brochure]
+            
+            params = ['Town='+town, 'Flat_Type='+flat_type, 'selectedTown='+town, 'Flat='+flat, 'ethnic='+ethnic, 'ViewOption='+ViewOption,\
+                      'Block='+Block, 'DesType='+DesType, 'EthnicA='+EthnicA, 'EthnicM='+EthnicM, 'EthnicC='+EthnicC, 'EthnicO='+EthnicO,\
+                      'numSPR='+numSPR, 'dteBallot='+dteBallot, 'Neighbourhood='+Neighbourhood, 'Contract='+Contract, 'projName='+projName,\
+                      'BonusFlats1='+BonusFlats1, 'searchDetails='+searchDetails, 'brochure='+brochure]
             query = '&'.join(params)
             # print(flatsearchhttp+query)
             driver.get(flatsearchhttp+query)
@@ -220,6 +241,15 @@ for exercise in hdb_exercises:
                                 driver.execute_script('arguments[0].click();', cell)
                                 print('Clicked')
                                 df = getBlockData(df, exercise, unquote_plus(mytown),unquote_plus(myflat))
+                                
+                                if df.shape[0] % 100 == 0:
+                                    if not os.path.exists('output'):
+                                        os.makedirs('./output')
+                                    df.to_csv(f'./output/sbf_obf_non_booked_{datetime.now().date()}.csv', index=False)
+                        
+                        wait_secs = random.randint(6,15)
+                        print(f"wait for {wait_secs} seconds..")
+                        time.sleep(wait_secs) #wait
 
 print(df.shape)
 if not os.path.exists('output'):

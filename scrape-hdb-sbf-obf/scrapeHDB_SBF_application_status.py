@@ -13,7 +13,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 driver = webdriver.Chrome("C:/Users/guanhua/Documents/chromedriver/chromedriver.exe")
-http = "https://services2.hdb.gov.sg/webapp/BP13BTOENQWeb/AR_Nov2019_SBF?strSystem=SBF"
+http = "https://services2.hdb.gov.sg/webapp/BP13BTOENQWeb/AR_Nov2020_SBF?strSystem=SBF"
 driver.get(http)
 
 def processRowData(rowdata, ncells):

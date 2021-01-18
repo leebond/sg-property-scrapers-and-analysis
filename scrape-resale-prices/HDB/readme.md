@@ -1,7 +1,8 @@
 
 # Description
-This folder contains a web scraper 
-- `scrape-HDB-resale-historical-prices.py` that scrapes transaction details of HDB Resale units.
+This folder contains the HDB resale transaction web scraper 
+- usage: run `python scrape-HDB-resale-historical-prices.py` in your command line scrapes transaction details of HDB Resale units.
+Note: To scrape the full 12 months of HDB resale data may take up to an hour depending on the speed of your internet and machine.
 
 ### Analysis
 I am in progress of adding a iPython Notebook that analyses HDB resale transactions.

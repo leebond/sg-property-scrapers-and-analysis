@@ -100,6 +100,7 @@ if __name__=='__main__':
 
     if mode == 'new':
         start_count = 0
+        saved_projects = ['new']
     elif mode == 'continue':
         # print(projects_names)
         output_filepath = './output/Private_*.xlsx'

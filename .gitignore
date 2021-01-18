@@ -1,16 +1,14 @@
-.ipynb_checkpoints/
-.DS_store
-__pycache__/
+**.ipynb_checkpoints/
+**.DS_store
+**__pycache__/
 
 # ignore output contents
 **.csv
 **.xlsx
 
 # But not these files...
-!**Private_resale_prices_2020-10-18.xlsx
-!**HDB_resale_prices_2020-10-14.xlsx
-
-
+!**/output_latest/**.xlsx
+!**/output_latest/**.csv
 
 # debug
 *.log

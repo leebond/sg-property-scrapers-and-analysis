@@ -202,7 +202,7 @@ if __name__=='__main__':
                         try:
                             table_xpath = '//*[@id="divLargeDetail2"]/div/div[3]/table'
                             resale_table = driver.find_element_by_xpath(table_xpath)
-                            # resale_table = WebDriverWait(driver, 3).until(EC.visibility_of_element_located((By.XPATH, table_xpath)))
+                            # resale_table = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, table_xpath)))
                             if resale_table:
                                 print('Resale Table Details Present')
                                 resale_details_table_xpath = '//*[@id="divLargeDetail2"]/div/div[3]/table/tbody/tr[*]'
@@ -227,7 +227,8 @@ if __name__=='__main__':
                         except NoSuchElementException:
                             ## click New Enquiry Button
                             new_xpath = '/html/body/form[1]/div[5]/div/a'
-                            new_enquiry_btn = driver.find_element_by_xpath(new_xpath)
+                            # new_enquiry_btn = driver.find_element_by_xpath(new_xpath)
+                            new_enquiry_btn = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, new_xpath)))
                             new_enquiry_btn.click()
 
                 

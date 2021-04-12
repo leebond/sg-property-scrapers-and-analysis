@@ -152,7 +152,7 @@ def clickNewEnquiry():
         try:
             new_xpath = '/html/body/form[1]/div[5]/div/a'
             # new_enquiry_btn = driver.find_element_by_xpath(new_xpath)
-            new_enquiry_btn = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, new_xpath)))
+            new_enquiry_btn = WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.XPATH, new_xpath)))
             new_enquiry_btn.click()
         except TimeoutException:
             cnt += 1

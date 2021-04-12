@@ -13,7 +13,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 import pandas as pd
 from datetime import datetime
 from urllib.parse import unquote_plus
@@ -146,6 +146,17 @@ def getTownResaleDetails(town, flat_type):
     
     return tbl_data
 
+def clickNewEnquiry():
+    cnt = 0
+    while cnt < 3:
+        try:
+            new_xpath = '/html/body/form[1]/div[5]/div/a'
+            # new_enquiry_btn = driver.find_element_by_xpath(new_xpath)
+            new_enquiry_btn = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, new_xpath)))
+            new_enquiry_btn.click()
+        except TimeoutException:
+            cnt += 1
+
 if __name__=='__main__':
     driver = webdriver.Chrome("C:/Users/guanhua/Documents/chromedriver/chromedriver.exe")
     http = 'https://services2.hdb.gov.sg/webapp/BB33RTIS/BB33SSearchWidget'   
@@ -226,10 +237,7 @@ if __name__=='__main__':
                         
                         except NoSuchElementException:
                             ## click New Enquiry Button
-                            new_xpath = '/html/body/form[1]/div[5]/div/a'
-                            # new_enquiry_btn = driver.find_element_by_xpath(new_xpath)
-                            new_enquiry_btn = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, new_xpath)))
-                            new_enquiry_btn.click()
+                            clickNewEnquiry()
 
                 
             except:

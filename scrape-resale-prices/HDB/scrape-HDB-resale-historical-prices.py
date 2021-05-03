@@ -63,61 +63,6 @@ def cleanTown(town_text):
     town_name = ' '.join(town_list[1:])
     return town_code, town_name
 
-# def getTownResaleDetails(df, town, flat_type, row):
-#     main = f'//*[@id="divLargeDetail2"]/div/div[3]/table/tbody/tr[{str(row)}]/'
-    
-#     block_xpath = main+'td[1]'
-#     block = driver.find_element_by_xpath(block_xpath).text
-#     street_xpath = main+'td[2]'
-#     street = driver.find_element_by_xpath(street_xpath).text
-#     storey_xpath = main+'td[3]'
-#     storey = driver.find_element_by_xpath(storey_xpath).text
-#     sqm_xpath = main+'td[4]'
-#     sqm = driver.find_element_by_xpath(sqm_xpath).text
-#     lcd_xpath = main+'td[5]'
-#     lcd = driver.find_element_by_xpath(lcd_xpath).text
-#     rl_xpath = main+'td[6]'
-#     rl = driver.find_element_by_xpath(rl_xpath).text
-#     price_xpath = main+'td[7]'
-#     price = driver.find_element_by_xpath(price_xpath).text
-#     rrd_xpath = main+'td[8]'
-#     rrd = driver.find_element_by_xpath(rrd_xpath).text
-    
-    
-#     sqm_num, sqm_desc = cleanSqm(sqm)
-#     town_code, town_name = cleanTown(town)
-    
-#     df = df.append({'Town Code': town_code,'Town': town_name,'Room Type': flat_type,'Block': block,'Street': street,'Storey': storey,'Lease Commencement Date': lcd,\
-#                     'Remaining Lease': rl,'Resale Registration Date': rrd, 'Price': price, 'Sqm': sqm_num, 'Type': sqm_desc}, ignore_index=True)
-#     return df
-
-# def getTownResaleDetails(df, town, flat_type, row):
-#     main = f'//*[@id="divLargeDetail2"]/div/div[3]/table/tbody/tr[{str(row)}]'
-    
-#     row_text = driver.find_element_by_xpath(main).text
-    
-#     block_xpath = main+'/td[1]'
-#     block = driver.find_element_by_xpath(block_xpath).text
-#     street_xpath = main+'/td[2]'
-#     street = driver.find_element_by_xpath(street_xpath).text
-#     storey = re.findall('\d{2} to \d{2}', row_text)[0]
-#     sqm = re.findall('\d+.\d{2}\n[A-Za-z]+', row_text)[0]
-#     lcd_xpath = main+'/td[5]'
-#     lcd = driver.find_element_by_xpath(lcd_xpath).text
-#     rl = re.findall('\d+ years', row_text)[0]
-#     price = re.findall('[$]\d+[,\d+]+.\d{2}', row_text)[0]
-#     rrd = row_text[-8:]
-    
-#     sqm_num, sqm_desc = cleanSqm(sqm)
-#     town_code, town_name = cleanTown(town)
-    
-#     # print(block, street, storey, sqm_num, sqm_desc, lcd, rl, price, rrd)
-#     df = df.append({'Town Code': town_code,'Town': town_name,'Room Type': flat_type,'Block': block,'Street': street,'Storey': storey,'Lease Commencement Date': lcd,\
-#                     'Remaining Lease': rl,'Resale Registration Date': rrd, 'Price': price, 'Sqm': sqm_num, 'Type': sqm_desc}, ignore_index=True)
-
-#     return df
-
-
 def getTownResaleDetails(town, flat_type):
     
     flat_type_dic = {'01':'1-Room','02':'2-Room','03':'3-Room','04':'4-Room','05':'5-Room','06':'Executive','08':'Multi-Generation'}
@@ -219,10 +164,7 @@ if __name__=='__main__':
                                 resale_details_table_xpath = '//*[@id="divLargeDetail2"]/div/div[3]/table/tbody/tr[*]'
                                 resale_details_table_rows = driver.find_elements_by_xpath(resale_details_table_xpath)
                                 print(f'{len(resale_details_table_rows)} transactions found' )
-                                
-                                # for row in tqdm(range(1, len(resale_details_table_rows)+1)):
-                                #     df = getTownResaleDetails(df, hdb_town, flat_type, row)
-                                
+                                                               
                                 data_df = getTownResaleDetails(hdb_town, flat_type)
                                 df = df.append(data_df)
                                 
@@ -239,9 +181,9 @@ if __name__=='__main__':
                             ## click New Enquiry Button
                             clickNewEnquiry()
 
-                
             except:
                 raise
+    
     print(df.shape)
     if not os.path.exists('output'):
         os.makedirs('output')

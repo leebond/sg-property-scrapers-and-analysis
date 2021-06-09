@@ -5,15 +5,12 @@ It contains the following scrapers and analyses
 - HDB SBF units scraper
 - HDB SBF application status scraper
 - HDB Resale transactions (up to 12 months) and transaction details scraper
-<<<<<<< HEAD
 - HDB Block Dwelling Composition scraper (WIP)
 - HDB Resale transactions analysis
 - Condo/landed Resale transactions (up to 5 years) scraper
-=======
 - HDB Block Dwelling Composition scraper
 - HDB Resale transactions analytics
 - Condo/landed Resale transactions (up to 5 years)
->>>>>>> a729686ff91d563e6c585167308dbc7c38810c03
 
 ## Motivation
 To open-source my work so that more people can access HDB's and URA's public and private property data.

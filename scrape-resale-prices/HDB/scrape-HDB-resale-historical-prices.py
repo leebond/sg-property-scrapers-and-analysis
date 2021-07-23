@@ -103,7 +103,7 @@ def clickNewEnquiry():
             cnt += 1
 
 if __name__=='__main__':
-    driver = webdriver.Chrome("C:/Users/guanhua/Documents/chromedriver/chromedriver.exe")
+    driver = webdriver.Chrome("C:/Users/LEEbo/Documents/chromedriver/chromedriver.exe")
     http = 'https://services2.hdb.gov.sg/webapp/BB33RTIS/BB33SSearchWidget'   
     driver.get(http)
     

@@ -79,7 +79,7 @@ if __name__=='__main__':
         sys.exit(0)
     mode = sys.argv[1]
     print(mode)
-    driver = webdriver.Chrome("C:/Users/guanhua/Documents/chromedriver/chromedriver.exe")
+    driver = webdriver.Chrome("C:/Users/LEEbo/Documents/chromedriver/chromedriver.exe")
     http = 'https://www.ura.gov.sg/realEstateIIWeb/transaction/search.action'   
     driver.get(http)
     
